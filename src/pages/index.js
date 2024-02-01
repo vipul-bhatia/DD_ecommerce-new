@@ -178,7 +178,7 @@ const IndexPage = () => {
             </a>
           </div>
           <div className={styles.imageContainer}>
-            <img src={`/post 6.jpg`} alt={'social media 1'} />
+            <img src={`/post 7.jpg`} alt={'social media 1'} />
             <a
               href="https://www.instagram.com/your-instagram-profile/"
               target="_blank"
