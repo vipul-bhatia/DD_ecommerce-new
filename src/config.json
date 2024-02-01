@@ -33,11 +33,8 @@
         {
           "text": "Journal",
           "link": "/"
-        },
-        {
-          "text": "Privacy Policy",
-          "link": "/"
         }
+     
       ]
     },
     {
@@ -52,13 +49,18 @@
           "link": "/"
         },
         {
-          "text": "Shipping & Returns",
-          "link": "/"
+          "text": "Shipping & Delivery",
+          "link": "/shippinganddelivery"
         },
         {
-          "text": "How to use this theme",
-          "link": "/"
+          "text": "Cancellation & Refund",
+          "link": "/cancellationandrefund"
+        },
+        {
+          "text": "Terms & Conditions",
+          "link": "/termsandcondition"
         }
+       
       ]
     }
   ],

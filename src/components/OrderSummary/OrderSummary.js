@@ -15,13 +15,12 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const amount = 50000;
+  // const amount = 50000;
   const currency = 'INR';
   const receiptId = 'qwsaq1';
   const [razorpayLoaded, setRazorpayLoaded] = useState(false);
 
-  const handleSubscribe = async (e) => {
-    e.preventDefault();
+  const handleSubscribe = async (jsonRes) => {
   
     // Validate form inputs
     if (!name || !email || !phone) {
@@ -30,7 +29,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
     }
     setIsLoading(true); // Start loading
     try {
-      await db.collection('dd_product_request').add({ name, email, phone,itemNames, totalCost,itemSize,itemQuantity, itemType });
+      await db.collection('dd_product').add({ name, email, phone,itemNames, totalCost,itemSize,itemQuantity, itemType,jsonRes });
       setName('');
       setEmail('');
       setPhone('');
@@ -43,89 +42,97 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
     setIsLoading(false); // Stop loading regardless of the result
   };
 
-  // const paymentHandler = async () => {
-  //   try {
-  //     const response = await fetch('http://localhost:3000/order', {
-  //       method: 'POST',
-  //       body: JSON.stringify({
-  //         amount,
-  //         currency,
-  //         receipt: receiptId,
-  //       }),
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //     });
+  const paymentHandler = async () => {
+    const amount = totalCost *100;
+    console.log(amount)
+    try {
+     
+      const response = await fetch('http://localhost:3000/order', {
+        method: 'POST',
+        body: JSON.stringify({
+        amount,
+          currency,
+          receipt: receiptId,
+          notes: [
+            name, email, phone
+          ]
+        }),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
 
-  //     const order = await response.json();
-  //     console.log(order);
+      const order = await response.json();
+      console.log(order);
 
-  //     var options = {
-  //       key: 'rzp_test_uuFk7fhcZGmKaW',
-  //       amount,
-  //       currency,
-  //       name: 'Singh Sahb',
-  //       description: 'Test Transaction',
-  //       image: 'https://example.com/your_logo',
-  //       order_id: order.id,
-  //       handler: async function (response) {
-  //         const body = {
-  //           ...response,
-  //         };
+      var options = {
+        key: 'rzp_test_uuFk7fhcZGmKaW',
+        amount,
+        currency,
+        name: 'Deepak Dua',
+        description: 'Test Transaction',
+        image: 'https://example.com/your_logo',
+        order_id: order.id,
+        handler: async function (response) {
+          const body = {
+            ...response,
+          };
 
-  //         const validateRes = await fetch('http://localhost:3000/order/validate', {
-  //           method: 'POST',
-  //           body: JSON.stringify(body),
-  //           headers: {
-  //             'Content-Type': 'application/json',
-  //           },
-  //         });
+          const validateRes = await fetch('http://localhost:3000/order/validate', {
+            method: 'POST',
+            body: JSON.stringify(body),
+            headers: {
+              'Content-Type': 'application/json',
+            },
+          });
 
-  //         const jsonRes = await validateRes.json();
-  //         console.log(jsonRes);
-  //       },
-  //       // redirect_url: 'https://www.google.com/',
-  //       callback_url: 'https://eneqd3r9zrjok.x.pipedream.net/',
-  //       prefill: {
-  //         name: 'Aman Singh',
-  //         email: 'amannsinghh0802@gmail.com',
-  //         contact: '9516200725',
-  //       },
-  //       notes: {
-  //         address: 'Razorpay Corporate Office',
-  //       },
-  //       theme: {
-  //         color: '#3399cc',
-  //       },
-  //     };
+          const jsonRes = await validateRes.json();
+          console.log(jsonRes);
+          handleSubscribe(jsonRes);
+          
+        },
+        // redirect_url: 'https://www.google.com/',
+        callback_url: 'https://eneqd3r9zrjok.x.pipedream.net/',
+        prefill: {
+          name: 'Aman Singh',
+          email: 'amannsinghh0802@gmail.com',
+          contact: '9516200725',
+        },
+        notes: {
+          address: 'Razorpay Corporate Office',
+        },
+        theme: {
+          color: '#3399cc',
+        },
+      };
 
-  //     var rzp1 = new window.Razorpay(options);
-  //     rzp1.open();
-  //   } catch (error) {
-  //     console.error('Error in paymentHandler:', error);
-  //   }
-  // };
+      var rzp1 = new window.Razorpay(options);
+      rzp1.open();
+    } catch (error) {
+      console.error('Error in paymentHandler:', error);
+    }
+  };
 
-  // useEffect(() => {
-  //   const loadRazorpayScript = async () => {
-  //     try {
-  //       const script = document.createElement('script');
-  //       script.src = 'https://checkout.razorpay.com/v1/checkout.js';
-  //       script.async = true;
+  useEffect(() => {
+    const loadRazorpayScript = async () => {
+      try {
+        const script = document.createElement('script');
+        script.src = 'https://checkout.razorpay.com/v1/checkout.js';
+        script.async = true;
 
-  //       script.onload = () => {
-  //         setRazorpayLoaded(true);
-  //       };
+        script.onload = () => {
+          setRazorpayLoaded(true);
+        };
 
-  //       document.head.appendChild(script);
-  //     } catch (error) {
-  //       console.error('Error loading Razorpay script:', error);
-  //     }
-  //   };
+        document.head.appendChild(script);
+      } catch (error) {
+        console.error('Error loading Razorpay script:', error);
+      }
+    };
 
-  //   // Call the function to load the script
-  //   loadRazorpayScript();
-  // }, []);
+    // Call the function to load the script
+    loadRazorpayScript();
+  }, []);
 
 
   return (
@@ -182,8 +189,8 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
       </div>
       <div className={styles.actionContainer}>
         <Button
-        onClick={handleSubscribe}  
-          // onClick={paymentHandler}
+        // onClick={handleSubscribe}  
+          onClick={paymentHandler}
           fullWidth
           level={'primary'}
         >
