@@ -222,6 +222,7 @@
     .burgerIcon {
         display: flex;
         align-items: center;
+        color:azure;
     }
 
     .burgerIcon svg {
@@ -230,7 +231,7 @@
     }
 
     .hideOnMobile {
-        display: none;
+
     }
 
     .actionContainers > * {
