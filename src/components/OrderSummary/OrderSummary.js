@@ -8,7 +8,7 @@ import CurrencyFormatter from '../CurrencyFormatter';
 import * as styles from './OrderSummary.module.css';
 import { db } from '../firebase/config';
 
-const OrderSummary = ({itemNames, totalCost}) => {
+const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -30,7 +30,7 @@ const OrderSummary = ({itemNames, totalCost}) => {
     }
     setIsLoading(true); // Start loading
     try {
-      await db.collection('dd_product_request').add({ name, email, phone,itemNames, totalCost });
+      await db.collection('dd_product_request').add({ name, email, phone,itemNames, totalCost,itemSize,itemQuantity, itemType });
       setName('');
       setEmail('');
       setPhone('');

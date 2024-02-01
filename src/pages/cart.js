@@ -15,7 +15,12 @@ const CartPage = (props) => {
   const context = useContext(CartContext);
   const state = context?.state || { totalCost: 0, items: [] };
   const { items, totalCost } = state;
+  //  size={state.sizeOptions} type={state.typeOptions} quantity={state.quantity}  
+
   const itemNames = items.map(item => item.name); 
+  const itemSize = items.map(item => item.sizeOptions); 
+  const itemType = items.map(item => item.typeOptions); 
+  const itemQuantity = items.map(item => item.quantity); 
 
 
 
@@ -45,7 +50,7 @@ const CartPage = (props) => {
                   <CartItem key={item.id} {...item} />
                 ))}
               </div>
-              <OrderSummary itemNames={itemNames} totalCost={state.totalCost} />
+              <OrderSummary itemSize={itemSize} itemQuantity={itemQuantity} itemType={itemType} itemNames={itemNames} totalCost={state.totalCost} />
             </div>
           </div>
         </Container>
@@ -57,4 +62,3 @@ const CartPage = (props) => {
 
 export default CartPage;
 
-//  size={state.sizeOptions} type={state.typeOptions} quantity={state.quantity}  

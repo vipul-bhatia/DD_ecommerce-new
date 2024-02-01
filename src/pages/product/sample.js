@@ -362,14 +362,14 @@ const ProductPage = (props) => {
 
         <div className={styles.attributeContainer}>
           <Split
-            image={'/cloth.png'}
+            image={'/tittlebanner.jpg'}
             alt={'attribute description'}
-            title={'Sustainability'}
+            title={'BEFORM'}
             description={
-              'We design our products to look good and to be used on a daily basis. And our aim is to inspire people to live with few timeless objects made to last. This is why quality over quantity is a cornerstone of our ethos and we have no interest in trends or seasonal collections.'
+              ''
             }
             ctaText={'learn more'}
-            cta={() => navigate('/blog')}
+            cta={() => navigate('/')}
             bgColor={'var(--standard-light-grey)'}
           />
         </div>
