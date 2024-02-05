@@ -31,8 +31,8 @@
           "link": "/"
         },
         {
-          "text": "Journal",
-          "link": "/"
+          "text": "Privacy Policy",
+          "link": "/privacypolicy"
         }
      
       ]
@@ -46,7 +46,7 @@
         },
         {
           "text": "Contact Us",
-          "link": "/"
+          "link": "/account/contactus"
         },
         {
           "text": "Shipping & Delivery",

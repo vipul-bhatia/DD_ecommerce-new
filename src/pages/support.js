@@ -3,7 +3,7 @@ import { navigate } from 'gatsby';
 import * as styles from './support.module.css';
 
 import Banner from '../components/Banner';
-import Contact from '../components/Contact';
+import Contact from '../pages/account/contactus';
 import Layout from '../components/Layout/Layout';
 import ThemeLink from '../components/ThemeLink';
 import Policy from '../components/Policy';
