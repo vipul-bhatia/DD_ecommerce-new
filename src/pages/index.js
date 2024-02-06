@@ -39,7 +39,7 @@ const IndexPage = () => {
       <div className={styles.messageContainer}>
         <h3>
           Wear Your
-          <span className={styles.gold}> Wibe</span>
+          <span className={styles.gold}> Vibe</span>
         </h3>
       
       </div>
@@ -55,7 +55,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shopmen'} textLink={'view all'} />
+          <Title name={'THE VIBE COLLECTION'} link={'/shopmen'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -75,7 +75,7 @@ const IndexPage = () => {
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
             title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            description={`Chill in style with our oversized French terry tee. Cozy vibes, soft inside, smooth outside. It's your laid-back luxe for cool loungewear – from trendy sweatshirts to chill joggers. Feel the perfect balance of comfort and style.`}
             textLink={'shop now'}
             link={'/shop'}
           />
@@ -126,7 +126,7 @@ const IndexPage = () => {
       <div className={styles.socialContainer}>
         <Title
           name={'Designed for You'}
-          subtitle={'Tag @BEFORM to be featured.'}
+          subtitle={'Tag @beform_official to be featured.'}
         />
         <div className={styles.socialContentGrid}>
           <div className={styles.imageContainer}>

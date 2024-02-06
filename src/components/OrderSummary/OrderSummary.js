@@ -12,6 +12,8 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
+  const [address, setAddress] = useState('');
+  const [pincode , setPincode] = useState('');
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -23,16 +25,18 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
   const handleSubscribe = async (jsonRes) => {
   
     // Validate form inputs
-    if (!name || !email || !phone) {
+    if (!name || !email || !phone || !address || !pincode) {
       setError('All fields are required');
       return;
     }
     setIsLoading(true); // Start loading
     try {
-      await db.collection('dd_product').add({ name, email, phone,itemNames, totalCost,itemSize,itemQuantity, itemType,jsonRes });
+      await db.collection('dd_product').add({ name, email, phone,address,pincode,itemNames, totalCost,itemSize,itemQuantity, itemType,jsonRes });
       setName('');
       setEmail('');
       setPhone('');
+      setAddress('');
+      setPincode('');
       setMessage('Thanks for Booking, our sales team will contact you soon!');
       setError(''); // Clear the error message on success
     } catch (error) {
@@ -163,7 +167,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
             value={name}
             handleChange={(_, name) => setName(name)}
             id={'couponInput'}
-
+            type='text'
           />
           <span>Email</span>
           <FormInputField
@@ -176,6 +180,20 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
           <FormInputField
             value={phone}
             handleChange={(_,phone) => setPhone(phone)}
+            id={'couponInput'}
+            type='number'
+          />
+          <span>Address</span>
+          <FormInputField
+            value={address}
+            handleChange={(_,address) => setAddress(address)}
+            id={'couponInput'}
+            type='text'
+          />
+          <span>Pincode</span>
+          <FormInputField
+            value={pincode}
+            handleChange={(_,pincode) => setPincode(pincode)}
             id={'couponInput'}
             type='number'
           />

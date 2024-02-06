@@ -39,6 +39,7 @@
     font-size: 12px;
     line-height: 15px;
     color: var(--standard-white);
+    
 }
 
 .root .linkContainers {
@@ -49,7 +50,7 @@
     margin-right: 40px;
     text-transform: uppercase;
     color: var(--standard-white);
-    font-weight: 500;
+    font-weight: 1000;
     font-size: 12px;
     line-height: 15px;
     border-bottom: 2px solid transparent;
