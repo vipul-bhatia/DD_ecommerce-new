@@ -59,7 +59,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
     console.log(amount)
     try {
      
-      const response = await fetch('http://localhost:3000/order', {
+      const response = await fetch('https://serversidedd.onrender.com/order', {
         method: 'POST',
         body: JSON.stringify({
         amount,
@@ -90,7 +90,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
             ...response,
           };
 
-          const validateRes = await fetch('http://localhost:3000/order/validate', {
+          const validateRes = await fetch('https://serversidedd.onrender.com/order/validate', {
             method: 'POST',
             body: JSON.stringify(body),
             headers: {
