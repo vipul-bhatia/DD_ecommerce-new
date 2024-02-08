@@ -17,13 +17,14 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
   // const amount = 50000;
   const currency = 'INR';
   const receiptId = 'qwsaq1';
   const [razorpayLoaded, setRazorpayLoaded] = useState(false);
 
   const handleSubscribe = async (jsonRes) => {
-  
+    setShowSuccessModal(true); // Show success modal
     // Validate form inputs
     if (!name || !email || !phone || !address || !pincode) {
       setError('All fields are required');
@@ -37,7 +38,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
       setPhone('');
       setAddress('');
       setPincode('');
-      setMessage('Thanks for Booking, our sales team will contact you soon!');
+      setMessage('Thanks for shopping , You will get the email of your order within 15 minutes.');
       setError(''); // Clear the error message on success
     } catch (error) {
       console.error('Error adding email: ', error);
@@ -47,6 +48,13 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
   };
 
   const paymentHandler = async () => {
+    if (!name || !email || !phone || !address || !pincode) {
+      setError('Please fill in all fields before checking out.');
+      return; // Exit the function early if any field is empty
+    }
+
+    setIsLoading(true);
+
     const amount = totalCost *100;
     console.log(amount)
     try {
@@ -70,7 +78,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
       console.log(order);
 
       var options = {
-        key: 'rzp_test_uuFk7fhcZGmKaW',
+        key: 'rzp_live_TeRhknmBrnM8KE',
         amount,
         currency,
         name: 'Deepak Dua',
@@ -114,6 +122,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
       rzp1.open();
     } catch (error) {
       console.error('Error in paymentHandler:', error);
+      setIsLoading(false);
     }
   };
 
@@ -141,6 +150,12 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
 
   return (
     <div className={styles.root}>
+      {showSuccessModal && <SuccessModal onClose={() => {
+  setShowSuccessModal(false);
+  setTimeout(() => {
+    navigate('/'); // Redirect to home page after a delay
+  }, 2000); // 2000 milliseconds delay
+}} />}
       <div className={styles.orderSummary}>
         <span className={styles.title}>order summary</span>
         <div className={styles.calculationContainer}>
@@ -212,7 +227,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
           fullWidth
           level={'primary'}
         >
-           {isLoading ? 'Adding...' : 'Checkout'} {/* Change text based on loading state */}
+           {isLoading ? 'Payment is Processing...' : 'Checkout'} {/* Change text based on loading state */}
         </Button>
         <h3>{message}</h3>
         {error && <h3>{error}</h3>}
@@ -225,3 +240,36 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
 };
 
 export default OrderSummary;
+
+const SuccessModal = ({ onClose }) => (
+  <div style={{
+    position: 'fixed', /* Stay in place */
+    zIndex: 1, /* Sit on top */
+    left: 0,
+    top: 0,
+    width: '100%', /* Full width */
+    height: '100%', /* Full height */
+    overflow: 'auto', /* Enable scroll if needed */
+    backgroundColor: 'rgba(0,0,0,0.4)', /* Black w/ opacity */
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+  }}>
+    <div style={{
+      backgroundColor: '#fefefe',
+      margin: 'auto',
+      padding: '20px',
+      border: '1px solid #888',
+      width: '80%',
+      maxWidth: '500px'
+    }}>
+       <span style={{ float: 'right', fontSize: '25px', fontWeight: 'bold', cursor: 'pointer' }} onClick={() => {
+    onClose();
+    navigate('/'); // Redirect to home page
+  }}>&times;</span>
+      <p>Your payment was successful!</p>
+      <p>You will get the email of your order within 15 minutes</p>
+    </div>
+  </div>
+);
+
