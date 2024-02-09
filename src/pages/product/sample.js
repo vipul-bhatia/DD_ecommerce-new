@@ -138,7 +138,9 @@ const ProductPage = (props) => {
 
   }
 
-  const isSpecialCategory = productName.includes('Sticker') || productName.includes('Crop Top');
+  const productNameSafe = productName || "";
+  const isSpecialCategory = productNameSafe.includes('Sticker') || productNameSafe.includes('Crop Top');
+  
   const isSticker = productName.toLowerCase().includes('sticker');
 
 
