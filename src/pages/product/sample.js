@@ -135,7 +135,12 @@ const ProductPage = (props) => {
     // Default case or handle additional product names
     console.log('No Product')
     sampleProduct = null;
+
   }
+
+  const isSpecialCategory = productName.includes('Sticker') || productName.includes('Crop Top');
+  const isSticker = productName.toLowerCase().includes('sticker');
+
 
 
 
@@ -203,9 +208,17 @@ const ProductPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.content}>
           <div className={styles.gallery}>
-  {sampleProduct && (sampleProduct.gallery || sampleProduct.video) && (
-    <Gallery images={sampleProduct.gallery} video={sampleProduct.video}/>
-  )}
+          {sampleProduct && isSpecialCategory ? (
+                // For special categories, display only the specified photo (e.g., the fourth one)
+                <img  style={{
+                  maxWidth: '100%',
+                  maxHeight: '100vh',
+                  objectFit: 'contain'
+                }} src={sampleProduct.gallery[2].image} alt="Special Product" />
+              ) : (
+                // Otherwise, render the Gallery component as before
+                <Gallery images={sampleProduct.gallery} video={sampleProduct.video}/>
+              )}
 </div>
             <div className={styles.details}>
               <br/>
@@ -221,14 +234,15 @@ const ProductPage = (props) => {
 
              
         
-              <div className={styles.sizeContainer}>
-              <SizeList
-  sizeList={(sampleProduct && sampleProduct.sizeOptions) || []}
-  activeSize={activeSize}
-  setActiveSize={setActiveSize}
-/>
-
-              </div>
+                 {!isSticker && (
+        <div className={styles.sizeContainer}>
+          <SizeList
+            sizeList={(sampleProduct && sampleProduct.sizeOptions) || []}
+            activeSize={activeSize}
+            setActiveSize={setActiveSize}
+          />
+        </div>
+      )}
               <br />
               <div className={styles.typeContainer}>
   {sampleProduct && sampleProduct.typeOptions && sampleProduct.typeOptions.map((type, index) => (

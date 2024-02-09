@@ -2,35 +2,41 @@
 import React, { useState } from 'react';
 // import { db } from '../firebase/config.js';
 import './Contact.css';
+import { db } from '../../components/firebase/config';
 
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [contact, setContact] = useState('');
+  const [query, setQuery] = useState('');
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
   
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
   
     // Validate form inputs
-    if (!name || !email || !contact) {
+    if (!name || !email || !contact || !query) {
       setError('All fields are required');
       return;
     }
+    setIsLoading(true);
   
-    // try {
-    //   await db.collection('ResQ-Notify-PreBook').add({ name, email, contact });
-    //   setName('');
-    //   setEmail('');
-    //   setContact('');
-    //   setMessage('Thanks for Pre-Booking!');
-    //   setError(''); // Clear the error message on success
-    // } catch (error) {
-    //   console.error('Error adding email: ', error);
-    //   setMessage('Failed to subscribe. Try again later.');
-    // }
+    try {
+      await db.collection('DD_Query').add({ name, email, contact, query });
+      setName('');
+      setEmail('');
+      setContact('');
+      setQuery('');
+      setMessage('Thanks for submitting your query!');
+      setError(''); // Clear the error message on success
+    } catch (error) {
+      console.error('Error adding email: ', error);
+      setMessage('Failed to submit. Try again later.');
+    }
+    setIsLoading(false);
   };
   return (
     <section id="contact" className="contact-section">
@@ -80,8 +86,8 @@ const Contact = () => {
                       type="number"
                       placeholder="Enter your phone number"
                       className="input-field"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
+                      value={contact}
+                      onChange={(e) => setContact(e.target.value)}
                     />
                   </div>
                   <div className="input-group-full">
@@ -93,13 +99,13 @@ const Contact = () => {
                       rows={5}
                       placeholder="Enter your Message"
                       className="textarea-field"
-                      value={contact}
-                      onChange={(e) => setContact(e.target.value)}
+                      value={query}
+                      onChange={(e) => setQuery(e.target.value)}
                     ></textarea>
                   </div>
                   <div className="submit-group">
-                    <button type="submit" className="submit-button">
-                      Submit Query
+                    <button onClick={handleSubscribe} type="submit" className="submit-button">
+                    {isLoading ? 'Submitting your Query...' : 'Submit Query'} {/* Change text based on loading state */}
                     </button>
                     <p className="message-text">{message}</p>
                     {error && <p className="error-text">{error}</p>}

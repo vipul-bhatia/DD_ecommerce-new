@@ -3,12 +3,13 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBub1bbwBK-dabtgwL_ya3OYSbfyDv831c",
-  authDomain: "ddecommerce-a0b1c.firebaseapp.com",
-  projectId: "ddecommerce-a0b1c",
-  storageBucket: "ddecommerce-a0b1c.appspot.com",
-  messagingSenderId: "191731049408",
-  appId: "1:191731049408:web:ae4ce4e0cae7e78e1bde25"
+  apiKey: "AIzaSyBFiRbWlF-yjJXFacnOY3TQewYPj_Voc6E",
+  authDomain: "beform-ff5fc.firebaseapp.com",
+  projectId: "beform-ff5fc",
+  storageBucket: "beform-ff5fc.appspot.com",
+  messagingSenderId: "94196613618",
+  appId: "1:94196613618:web:eb6b9b2f71983141212b6b",
+  measurementId: "G-PWX0SJZ4WX"
 };
 // init firebase
 firebase.initializeApp(firebaseConfig)
