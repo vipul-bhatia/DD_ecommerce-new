@@ -219,7 +219,8 @@ const ProductPage = (props) => {
                 }} src={sampleProduct.gallery[2].image} alt="Special Product" />
               ) : (
                 // Otherwise, render the Gallery component as before
-                <Gallery images={sampleProduct.gallery} video={sampleProduct.video}/>
+                <Gallery images={sampleProduct?.gallery ?? []} video={sampleProduct?.video ?? null}/>
+
               )}
 </div>
             <div className={styles.details}>
