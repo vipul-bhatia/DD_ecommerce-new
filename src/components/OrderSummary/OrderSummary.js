@@ -106,9 +106,9 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
         // redirect_url: 'https://www.google.com/',
         callback_url: 'https://eneqd3r9zrjok.x.pipedream.net/',
         prefill: {
-          name: 'Aman Singh',
-          email: 'amannsinghh0802@gmail.com',
-          contact: '9516200725',
+          name: 'Deepak Dua',
+          email: 'beformofficial@gmail.com',
+          contact: '9680046943',
         },
         notes: {
           address: 'Razorpay Corporate Office',

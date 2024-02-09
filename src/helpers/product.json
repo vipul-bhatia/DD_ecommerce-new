@@ -236,7 +236,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Crop Top Product 1",
         "vendor": "BEFORM",
-        "price": 659,
+        "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 1.jpg",
         "sizeOptions": ["l", "xl","xxl"],
@@ -255,7 +255,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Crop Top Product 2",
         "vendor": "BEFORM",
-        "price": 659,
+        "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 2.jpg",
         "sizeOptions": ["l", "xl","xxl"],
@@ -274,7 +274,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Crop Top Product 3",
         "vendor": "BEFORM",
-        "price": 659,
+        "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 3.jpg",
         "sizeOptions": ["l", "xl","xxl"],
@@ -293,7 +293,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Crop Top Product 4",
         "vendor": "BEFORM",
-        "price": 659,
+        "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 4.jpg",
         "sizeOptions": ["l", "xl","xxl"],
@@ -312,7 +312,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Crop Top Product 5",
         "vendor": "BEFORM",
-        "price": 659,
+        "price": 650,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 5.jpg",
         "sizeOptions": ["l", "xl","xxl"],
@@ -331,7 +331,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Crop Top Product 6",
         "vendor": "BEFORM",
-        "price": 659,
+        "price": 599,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 6.jpg",
         "sizeOptions": ["l", "xl","xxl"],
@@ -350,7 +350,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Crop Top Product 7",
         "vendor": "BEFORM",
-        "price": 659,
+        "price": 599,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 7.jpg",
         "sizeOptions": ["l", "xl","xxl"],
@@ -369,7 +369,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Crop Top Product 8",
         "vendor": "BEFORM",
-        "price": 659,
+        "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 8.jpg",
         "sizeOptions": ["l", "xl","xxl"],
@@ -387,56 +387,56 @@
 
     {
         "name": "Crop Top Product 1",
-        "price": 659,
+        "price": 549,
         "alt": "crop Top Product 1",
         "image": "/products/Crop Top Product 1.jpg",
         "tags": ["shirt", "women"]
     },
     {
         "name": "Crop Top Product 2",
-        "price": 659,
+        "price": 549,
         "alt": "crop Top Productt 2",
         "image": "/products/Crop Top Product 2.jpg",
         "tags": ["shirt", "women"]
     },
     {
         "name": "Crop Top Product 3",
-        "price": 659,
+        "price": 549,
         "alt": "crop Top Product 3",
         "image": "/products/Crop Top Product 3.jpg",
         "tags": ["shirt", "women"]
     },
     {
         "name": "Crop Top Product 4",
-        "price": 659,
+        "price": 549,
         "alt": "crop Top Product 4",
         "image": "/products/Crop Top Product 4.jpg",
         "tags": ["shirt", "women"]
     },
     {
         "name": "Crop Top Product 5",
-        "price": 659,
+        "price": 650,
         "alt": "crop Top Product 5",
         "image": "/products/Crop Top Product 5.jpg",
         "tags": ["shirt", "women"]
     },
     {
         "name": "Crop Top Product 6",
-        "price": 659,
+        "price": 599,
         "alt": "crop Top Product 6",
         "image": "/products/Crop Top Product 6.jpg",
         "tags": ["shirt", "women"]
     },
     {
         "name": "Crop Top Product 7",
-        "price": 659,
+        "price": 599,
         "alt": "crop Top Product 7",
         "image": "/products/Crop Top Product 7.jpg",
         "tags": ["shirt", "women"]
     },
     {
         "name": "Crop Top Product 8",
-        "price": 659,
+        "price": 549,
         "alt": "crop Top Product 8",
         "image": "/products/Crop Top Product 8.jpg",
         "tags": ["shirt", "women"]
@@ -456,7 +456,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 1",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 45,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 1-03.jpg",
         "wishlist": true,
@@ -474,7 +474,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 2",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 65,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 2-03.jpg",
         "colorOptions": [
@@ -498,7 +498,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 3",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 20,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 3-03.jpg",
         "colorOptions": [
@@ -522,7 +522,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 4",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 25,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 4-03.jpg",
         "colorOptions": [
@@ -546,7 +546,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 5",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 39,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 5-03.jpg",
         "colorOptions": [
@@ -570,7 +570,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 6",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 39,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 6-03.jpg",
         "colorOptions": [
@@ -594,7 +594,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 7",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 25,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 7-03.jpg",
         "colorOptions": [
@@ -618,7 +618,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 8",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 59,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 8-03.jpg",
         "colorOptions": [
@@ -642,7 +642,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 9",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 59,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 9-03.jpg",
         "colorOptions": [
@@ -666,7 +666,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 10",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 49,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 10-03.jpg",
         "colorOptions": [
@@ -690,7 +690,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 11",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 65,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 11-03.jpg",
         "colorOptions": [
@@ -714,7 +714,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 12",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 65,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 12-03.jpg",
         "colorOptions": [
@@ -738,7 +738,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 13",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 49,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 13-03.jpg",
         "colorOptions": [
@@ -762,7 +762,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 14",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 65,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 14-03.jpg",
         "colorOptions": [
@@ -784,9 +784,9 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "BEFORM",
+        "name": "Sticker 15",
         "vendor": "Sunspel",
-        "price": 75,
+        "price": 50,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 15-03.jpg",
         "colorOptions": [
@@ -810,7 +810,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 16",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 59,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 16-03.jpg",
         "colorOptions": [
@@ -834,7 +834,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 17",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 39,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 17-03.jpg",
         "colorOptions": [
@@ -858,7 +858,7 @@
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 18",
         "vendor": "BEFORM",
-        "price": 75,
+        "price": 39,
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 18-03.jpg",
         "colorOptions": [
@@ -894,126 +894,126 @@
 
     {
         "name": "Sticker 1",
-        "price": 75,
+        "price": 45,
         "alt": "sticker 1",
         "image": "/products/stickers 1-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 2",
-        "price": 75,
+        "price": 65,
         "alt": "sticker 2",
         "image": "/products/stickers 2-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 3",
-        "price": 75,
+        "price": 20,
         "alt": "sticker 3",
         "image": "/products/stickers 3-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 4",
-        "price": 75,
+        "price": 25,
         "alt": "sticker 4",
         "image": "/products/stickers 4-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 5",
-        "price": 75,
+        "price": 39,
         "alt": "sticker 5",
         "image": "/products/stickers 5-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 6",
-        "price": 75,
+        "price": 39,
         "alt": "sticker 6",
         "image": "/products/stickers 6-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 7",
-        "price": 75,
+        "price": 25,
         "alt": "sticker 7",
         "image": "/products/stickers 7-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 8",
-        "price": 75,
+        "price": 59,
         "alt": "sticker 8",
         "image": "/products/stickers 8-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 9",
-        "price": 75,
+        "price": 59,
         "alt": "sticker 9",
         "image": "/products/stickers 9-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 10",
-        "price": 75,
+        "price": 49,
         "alt": "sticker 10",
         "image": "/products/stickers 10-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 11",
-        "price": 75,
+        "price": 65,
         "alt": "sticker 11",
         "image": "/products/stickers 11-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 12",
-        "price": 75,
+        "price": 65,
         "alt": "sticker 12",
         "image": "/products/stickers 12-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 13",
-        "price": 75,
+        "price": 49,
         "alt": "sticker 13",
         "image": "/products/stickers 13-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 14",
-        "price": 75,
+        "price": 65,
         "alt": "sticker 14",
         "image": "/products/stickers 14-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 15",
-        "price": 75,
+        "price": 50,
         "alt": "sticker 15",
         "image": "/products/stickers 15-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 16",
-        "price": 75,
+        "price": 59,
         "alt": "sticker 16",
         "image": "/products/stickers 16-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 17",
-        "price": 75,
+        "price": 39,
         "alt": "sticker 17",
         "image": "/products/stickers 17-03.jpg",
         "tags": ["sticker"]
     },
     {
         "name": "Sticker 18",
-        "price": 75,
+        "price": 39,
         "alt": "sticker 18",
         "image": "/products/stickers 18-03.jpg",
         "tags": ["sticker"]
