@@ -239,7 +239,7 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 1.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl","xxl"],
         "wishlist": true,
         "tags": ["sample25"],
         "gallery": [
@@ -258,7 +258,7 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 2.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl","xxl"],
         "wishlist": true,
         "tags": ["sample26"],
         "gallery": [
@@ -277,7 +277,7 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 3.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl","xxl"],
         "wishlist": true,
         "tags": ["sample27"],
         "gallery": [
@@ -296,7 +296,7 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 4.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl","xxl"],
         "wishlist": true,
         "tags": ["sample28"],
         "gallery": [
@@ -315,7 +315,7 @@
         "price": 650,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 5.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl","xxl"],
         "wishlist": true,
         "tags": ["sample29"],
         "gallery": [
@@ -334,7 +334,7 @@
         "price": 599,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 6.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl","xxl"],
         "wishlist": true,
         "tags": ["sample30"],
         "gallery": [
@@ -353,7 +353,7 @@
         "price": 599,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 7.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl","xxl"],
         "wishlist": true,
         "tags": ["sample31"],
         "gallery": [
@@ -372,7 +372,7 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 8.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl","xxl"],
         "wishlist": true,
         "tags": ["sample32"],
         "gallery": [
