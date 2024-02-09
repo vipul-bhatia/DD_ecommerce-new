@@ -28,9 +28,8 @@ const ProductPage = (props) => {
 
   const { state } = props.location;
   const productDetails = state && state.productDetails;
-  const productName = productDetails && productDetails.name;
+  const productName = productDetails ? productDetails.name : '';
   let sampleProduct;
-  
 
   // Display different sample products based on the name
   if (productName === 'Classic T-Shirt 1') {
