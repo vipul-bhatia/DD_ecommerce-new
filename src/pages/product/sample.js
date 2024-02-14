@@ -1,5 +1,6 @@
 import React, { useState, useContext ,useEffect} from 'react';
 import * as styles from './sample.module.css';
+import { Link } from 'gatsby';
 
 import Accordion from '../../components/Accordion';
 import AdjustItem from '../../components/AdjustItem';
@@ -178,7 +179,7 @@ const ProductPage = (props) => {
       setBasePrice(originalBasePrice); // Revert to original base price if no adjustment is found
     }
   };
-  const [buttonText, setButtonText] = useState('Add to Bag');
+  const [buttonText, setButtonText] = useState('Add to Cart');
   const handleAddToCart = () => {
     if (dispatch && sampleProduct) {
       // Create a new product object with the adjusted price and current quantity
@@ -192,7 +193,7 @@ const ProductPage = (props) => {
       
       // Dispatch the new product object to the cart
       dispatch({ type: 'ADD_ITEM', payload: productWithAdjustedPrice });
-      setButtonText('Added to Bag')
+      setButtonText('Added to Cart')
     } else {
       console.error('Dispatch function not available or sampleProduct is null');
     }
@@ -276,6 +277,24 @@ const ProductPage = (props) => {
           >
             {buttonText} {/* Use the state for button text */}
           </Button>
+        </div>
+        <br />
+        <br />
+        <br />
+        
+        <div className={styles.addToButtonContainer2}>
+         < Link 
+         href='/cart'
+         >
+          <Button
+           
+            fullWidth
+            level={'secondary'}
+
+          >
+           Go to Cart {/* Use the state for button text */}
+          </Button>
+          </Link>
         </div>
       </div>
               {

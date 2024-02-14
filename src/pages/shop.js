@@ -44,7 +44,7 @@ const ShopPage = (props) => {
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman's Tshirt`}
+          name={`Woman`}
           subtitle={
             ''
           }
@@ -84,7 +84,7 @@ const ShopPage = (props) => {
         </Container>
       </div>
 
-      <LayoutOption />
+      {/* <LayoutOption /> */}
     </Layout>
   );
 };

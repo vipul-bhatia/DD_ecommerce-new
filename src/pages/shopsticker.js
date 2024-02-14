@@ -88,7 +88,7 @@ const ShopPageSticker = (props) => {
         </Container>
       </div>
 
-      <LayoutOption />
+      {/* <LayoutOption /> */}
     </Layout>
   );
 };

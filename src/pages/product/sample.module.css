@@ -78,6 +78,9 @@
 .addToButtonContainer {
     flex-grow: 1;
 }
+.addToButtonContainer2 {
+    flex-grow: 2;
+}
 .typeContainer {
     display: flex;
     /* Add more styles similar to sizeContainer */
