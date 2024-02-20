@@ -1,7 +1,7 @@
 [
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic T-Shirt 1",
+        "name": "BFM 01",
         "vendor": "BEFORM",
         "price": 899,
         "alt": "lambswool crew neck jumper",
@@ -25,7 +25,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic T-Shirt 2",
+        "name": "BFM 02",
         "vendor": "BEFORM",
         "price": 899,
         "typeOptions": ["Oversized", "Full-Sleeve"],
@@ -49,7 +49,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic T-Shirt 3",
+        "name": "BFM 03",
         "vendor": "BEFORM",
         "price": 899,
         "typeOptions": ["s","m","l", "xl"],
@@ -73,7 +73,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic T-Shirt 4",
+        "name": "BFM 04",
         "vendor": "BEFORM",
         "price": 899,
         "typeOptions": ["Oversized", "Full-Sleeve"],
@@ -97,7 +97,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic T-Shirt 5",
+        "name": "BFM 05",
         "vendor": "BEFORM",
         "price": 899,
         "typeOptions": ["Oversized", "Full-Sleeve"],
@@ -121,7 +121,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic T-Shirt 6",
+        "name": "BFM 06",
         "vendor": "BEFORM",
         "price": 899,
         "typeOptions": ["Oversized", "Full-Sleeve"],
@@ -145,7 +145,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Classic T-Shirt 7",
+        "name": "BFM 07",
         "vendor": "BEFORM",
         "price": 899,
         "typeOptions": ["Oversized", "Full-Sleeve"],
@@ -169,7 +169,7 @@
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
     {
-        "name": "Classic T-Shirt 1",
+        "name": "BFM 01",
         "price": 899,
         "alt": "classic t-shirt 1",
         "image": "/products/BFM01 tshirt front view.jpg",
@@ -177,7 +177,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Classic T-Shirt 2",
+        "name": "BFM 02",
         "price": 899,
         "alt": "classic t-shirt 2",
         "image": "/products/BFM02 tshirt front view.jpg",
@@ -185,7 +185,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Classic T-Shirt 3",
+        "name": "BFM 03",
         "price": 899,
         "alt": "classic t-shirt 3",
         "image": "/products/BFM03 tshirt front view.jpg",
@@ -193,7 +193,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Classic T-Shirt 4",
+        "name": "BFM 04",
         "price": 899,
         "alt": "classic t-shirt 4",
         "image": "/products/BFM04 tshirt front view.jpg",
@@ -201,7 +201,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Classic T-Shirt 5",
+        "name": "BFM 05",
         "price": 899,
         "alt": "classic t-shirt 5",
         "image": "/products/BFM05 tshirt front view.jpg",
@@ -209,7 +209,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Classic T-Shirt 6",
+        "name": "BFM 06",
         "price": 899,
         "alt": "classic t-shirt 6",
         "image": "/products/BFM06 tshirt front view.jpg",
@@ -217,7 +217,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Classic T-Shirt 7",
+        "name": "BFM 07",
         "price": 899,
         "alt": "classic t-shirt 7",
         "image": "/products/BFM07 tshirt front view.jpg",
@@ -234,7 +234,7 @@
 
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Crop Top Product 1",
+        "name": "BFM 08",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
@@ -253,12 +253,12 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Crop Top Product 2",
+        "name": "BFM 09",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 2.jpg",
-        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample26"],
         "gallery": [
@@ -272,12 +272,12 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Crop Top Product 3",
+        "name": "BFM 10",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 3.jpg",
-        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample27"],
         "gallery": [
@@ -291,12 +291,12 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Crop Top Product 4",
+        "name": "BFM 11",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 4.jpg",
-        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample28"],
         "gallery": [
@@ -310,12 +310,12 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Crop Top Product 5",
+        "name": "BFM 12",
         "vendor": "BEFORM",
         "price": 650,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 5.jpg",
-        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample29"],
         "gallery": [
@@ -329,12 +329,12 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Crop Top Product 6",
+        "name": "BFM 13",
         "vendor": "BEFORM",
         "price": 599,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 6.jpg",
-        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample30"],
         "gallery": [
@@ -348,12 +348,12 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Crop Top Product 7",
+        "name": "BFM 14",
         "vendor": "BEFORM",
         "price": 599,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 7.jpg",
-        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample31"],
         "gallery": [
@@ -367,12 +367,12 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "Crop Top Product 8",
+        "name": "BFM 15",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 8.jpg",
-        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample32"],
         "gallery": [
@@ -386,56 +386,56 @@
     },
 
     {
-        "name": "Crop Top Product 1",
+        "name": "BFM 08",
         "price": 549,
         "alt": "crop Top Product 1",
         "image": "/products/Crop Top Product 1.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "Crop Top Product 2",
+        "name": "BFM 09",
         "price": 549,
         "alt": "crop Top Productt 2",
         "image": "/products/Crop Top Product 2.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "Crop Top Product 3",
+        "name": "BFM 10",
         "price": 549,
         "alt": "crop Top Product 3",
         "image": "/products/Crop Top Product 3.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "Crop Top Product 4",
+        "name": "BFM 11",
         "price": 549,
         "alt": "crop Top Product 4",
         "image": "/products/Crop Top Product 4.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "Crop Top Product 5",
+        "name": "BFM 12",
         "price": 650,
         "alt": "crop Top Product 5",
         "image": "/products/Crop Top Product 5.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "Crop Top Product 6",
+        "name": "BFM 13",
         "price": 599,
         "alt": "crop Top Product 6",
         "image": "/products/Crop Top Product 6.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "Crop Top Product 7",
+        "name": "BFM 14",
         "price": 599,
         "alt": "crop Top Product 7",
         "image": "/products/Crop Top Product 7.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "Crop Top Product 8",
+        "name": "BFM 15",
         "price": 549,
         "alt": "crop Top Product 8",
         "image": "/products/Crop Top Product 8.jpg",
