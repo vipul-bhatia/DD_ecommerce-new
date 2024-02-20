@@ -34,24 +34,24 @@ const ProductPage = (props) => {
   
 
   // Display different sample products based on the name
-  if (productName === 'Classic T-Shirt 1') {
+  if (productName === 'BFM 01') {
     sampleProduct = generateMockProductData(1, 'sample')[0];
-  } else if (productName === 'Classic T-Shirt 2') {
+  } else if (productName === 'BFM 02') {
     // Add conditions for other product names
     sampleProduct = generateMockProductData(1, 'sample1')[0];
-  } else if (productName === 'Classic T-Shirt 3') {
+  } else if (productName === 'BFM 03') {
     // Add conditions for other product names
     sampleProduct = generateMockProductData(1, 'sample2')[0];
-  } else if(productName === 'Classic T-Shirt 4'){
+  } else if(productName === 'BFM 04'){
     sampleProduct = generateMockProductData(1, 'sample3')[0];
   }
-  else if(productName === 'Classic T-Shirt 5'){
+  else if(productName === 'BFM 05'){
     sampleProduct = generateMockProductData(1, 'sample4')[0];
   }
-  else if(productName === 'Classic T-Shirt 6'){
+  else if(productName === 'BFM 06'){
     sampleProduct = generateMockProductData(1, 'sample5')[0];
   }
-  else if(productName === 'Classic T-Shirt 7'){
+  else if(productName === 'BFM 07'){
     sampleProduct = generateMockProductData(1, 'sample6')[0];
   }
   else if(productName === 'Sticker 1'){
@@ -108,28 +108,28 @@ const ProductPage = (props) => {
   else if(productName === 'Sticker 18'){
     sampleProduct = generateMockProductData(1, 'sample24')[0];
   }
-  else if(productName === 'Crop Top Product 1'){
+  else if(productName === 'BFM 08'){
     sampleProduct = generateMockProductData(1, 'sample25')[0];
   }
-  else if(productName === 'Crop Top Product 2'){
+  else if(productName === 'BFM 09'){
     sampleProduct = generateMockProductData(1, 'sample26')[0];
   }
-  else if(productName === 'Crop Top Product 3'){
+  else if(productName === 'BFM 10'){
     sampleProduct = generateMockProductData(1, 'sample27')[0];
   }
-  else if(productName === 'Crop Top Product 4'){
+  else if(productName === 'BFM 11'){
     sampleProduct = generateMockProductData(1, 'sample28')[0];
   }
-  else if(productName === 'Crop Top Product 5'){
+  else if(productName === 'BFM 12'){
     sampleProduct = generateMockProductData(1, 'sample29')[0];
   }
-  else if(productName === 'Crop Top Product 6'){
+  else if(productName === 'BFM 13'){
     sampleProduct = generateMockProductData(1, 'sample30')[0];
   }
-  else if(productName === 'Crop Top Product 7'){
+  else if(productName === 'BFM 14'){
     sampleProduct = generateMockProductData(1, 'sample31')[0];
   }
-  else if(productName === 'Crop Top Product 8'){
+  else if(productName === 'BFM 15'){
     sampleProduct = generateMockProductData(1, 'sample32')[0];
   }
   else {

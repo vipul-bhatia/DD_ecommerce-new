@@ -31,7 +31,7 @@ const CartPage = (props) => {
           <div className={styles.headerContainer}>
             <div className={styles.shoppingContainer}>
               <Link className={styles.shopLink} to={'/'}>
-                <Icon symbol={'arrow'}></Icon>
+              
                 <span className={styles.continueShopping}>
                   Continue Shopping
                 </span>
@@ -55,7 +55,8 @@ const CartPage = (props) => {
   itemQuantity={itemQuantity}
   itemType={itemType}
   itemNames={itemNames}
-  totalCost={state.totalCost + 45} // Add 100 rupees as delivery charge
+  totalCost={state.totalCost +45} // Add 100 rupees as delivery charge
+  subtotal= {state.totalCost}
 />
 
             </div>

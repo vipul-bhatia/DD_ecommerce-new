@@ -1,7 +1,14 @@
 .headerContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background-color: black;
 }
+
+.continueShopping{
+    color: aliceblue;
+    padding-left: 10px;
+}
+
 
 .contentContainer {
     width: 100%;
@@ -38,6 +45,7 @@
 .shoppingContainer {
     display: flex;
     align-items: center;
+    
 }
 
 .shopLink {

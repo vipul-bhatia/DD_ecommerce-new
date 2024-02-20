@@ -8,7 +8,7 @@ import CurrencyFormatter from '../CurrencyFormatter';
 import * as styles from './OrderSummary.module.css';
 import { db } from '../firebase/config';
 
-const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) => {
+const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType, subtotal}) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -162,7 +162,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
           <div className={styles.labelContainer}>
             <span>Subtotal</span>
             <span>
-              <CurrencyFormatter amount={totalCost} appendZero />
+              <CurrencyFormatter amount={subtotal} appendZero />
             </span>
           </div>
           {/* <div className={styles.labelContainer}>

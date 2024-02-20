@@ -45,7 +45,7 @@ const Contact = () => {
           <div className="form-container">
             <div className="form-wrapper">
               <h2 className="form-title">
-                Contact Us by filling the below form or call us on +91 9680046943
+                Contact Us by filling the below form 
                 <br/>
                 Address:Jaipur , Rajasthan ,302020
               </h2>
