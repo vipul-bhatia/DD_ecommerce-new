@@ -284,7 +284,7 @@ const ProductPage = (props) => {
         
         <div className={styles.addToButtonContainer2}>
          < Link 
-         href='/cart'
+         to='/cart'
          >
           <Button
            

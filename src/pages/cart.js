@@ -50,7 +50,14 @@ const CartPage = (props) => {
                   <CartItem key={item.id} {...item} />
                 ))}
               </div>
-              <OrderSummary itemSize={itemSize} itemQuantity={itemQuantity} itemType={itemType} itemNames={itemNames} totalCost={state.totalCost} />
+              <OrderSummary
+  itemSize={itemSize}
+  itemQuantity={itemQuantity}
+  itemType={itemType}
+  itemNames={itemNames}
+  totalCost={state.totalCost + 100} // Add 100 rupees as delivery charge
+/>
+
             </div>
           </div>
         </Container>

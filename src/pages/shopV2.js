@@ -31,12 +31,12 @@ const ShopV2Page = (props) => {
       <div className={styles.root}>
         <Container size={'large'} spacing={'min'}>
           <Breadcrumbs
-            crumbs={[{ link: '/', label: 'Home' }, { label: 'Woman' }]}
+            crumbs={[{ link: '/', label: 'Home' }, { label: 'Women' }]}
           />
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman`}
+          name={`Women`}
           subtitle={
             'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
           }

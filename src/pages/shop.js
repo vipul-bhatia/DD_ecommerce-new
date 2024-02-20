@@ -36,7 +36,7 @@ const ShopPage = (props) => {
             <Breadcrumbs
               crumbs={[
                 { link: '/', label: 'Home' },
-                { link: '/', label: 'Woman' },
+                { link: '/', label: 'Women' },
                 { label: 'Sweaters' },
               ]}
             />
@@ -44,7 +44,7 @@ const ShopPage = (props) => {
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman`}
+          name={`Women`}
           subtitle={
             ''
           }

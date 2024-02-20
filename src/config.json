@@ -70,10 +70,10 @@
       "menuLink": "/shop",
       "category": [
         {
-          "categoryLabel": "woman",
+          "categoryLabel": "women",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "Clothing",
               "menuLink": "/shop"
             },
             {
@@ -86,7 +86,7 @@
           "categoryLabel": "men",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "Clothing",
               "menuLink": "/shopmen"
             },
             {
@@ -99,7 +99,7 @@
           "categoryLabel": "Accessories",
           "submenu": [
             {
-              "menuLabel": "All Stickers",
+              "menuLabel": "Stickers",
               "menuLink": "/shopsticker"
             }
           ]

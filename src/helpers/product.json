@@ -11,7 +11,7 @@
             "Oversized": 0,
             "Full-Sleeve": 200
           },
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample"],
         "gallery": [
@@ -35,7 +35,7 @@
           },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM02 tshirt front view.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample1"],
         "gallery": [
@@ -52,7 +52,7 @@
         "name": "Classic T-Shirt 3",
         "vendor": "BEFORM",
         "price": 899,
-        "typeOptions": ["l", "xl","xxl"],
+        "typeOptions": ["s","m","l", "xl"],
         "typePriceAdjustments": {
             "Oversized": 0,
             "Full-Sleeve": 200
@@ -83,7 +83,7 @@
           },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM04 tshirt front view.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample3"],
         "gallery": [
@@ -107,7 +107,7 @@
           },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM05 tshirt front view.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample4"],
         "gallery": [
@@ -131,7 +131,7 @@
           },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM06 tshirt front view.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample5"],
         "gallery": [
@@ -156,7 +156,7 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM07 tshirt front view.jpg",
 
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": ["s","m","l", "xl"],
         "wishlist": true,
         "tags": ["sample6"],
         "gallery": [
