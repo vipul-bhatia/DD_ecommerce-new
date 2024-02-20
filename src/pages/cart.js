@@ -55,7 +55,7 @@ const CartPage = (props) => {
   itemQuantity={itemQuantity}
   itemType={itemType}
   itemNames={itemNames}
-  totalCost={state.totalCost + 100} // Add 100 rupees as delivery charge
+  totalCost={state.totalCost + 45} // Add 100 rupees as delivery charge
 />
 
             </div>

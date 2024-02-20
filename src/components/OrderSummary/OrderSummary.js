@@ -215,7 +215,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType}) =>
         </div>
         <br />
         <div className={styles.deliveryCharge}>
-  Delivery Charge: Rs. 100
+  Delivery Charge: Rs. 45
 </div>
         <div className={styles.totalContainer}>
           <span>Total: </span>
