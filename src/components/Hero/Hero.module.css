@@ -33,9 +33,7 @@
 .titleContainer {
     position: relative;
     overflow: hidden;
-  }
-  
-  .titleContainer img {
+    background-image: none !important;
     opacity: 0; /* Initially hide the text */
     transform: translateX(-100%); /* Start from outside the left edge */
     transition: opacity 2s ease, transform 2s ease;
