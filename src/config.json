@@ -73,10 +73,6 @@
           "categoryLabel": "women",
           "submenu": [
             {
-              "menuLabel": "Clothing",
-              "menuLink": "/shop"
-            },
-            {
               "menuLabel": "sweatshirts & hoodies",
               "menuLink": "/shop"
             }
@@ -85,10 +81,6 @@
         {
           "categoryLabel": "men",
           "submenu": [
-            {
-              "menuLabel": "Clothing",
-              "menuLink": "/shopmen"
-            },
             {
               "menuLabel": "sweatshirts & hoodies",
               "menuLink": "/shopmen"
