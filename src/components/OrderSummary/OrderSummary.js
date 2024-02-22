@@ -7,6 +7,8 @@ import CurrencyFormatter from '../CurrencyFormatter';
 
 import * as styles from './OrderSummary.module.css';
 import { db } from '../firebase/config';
+import firebase from '../firebase/config'; // Adjust the path to where you configure your Firebase app
+
 
 const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType, subtotal}) => {
   const [name, setName] = useState('');
@@ -22,6 +24,39 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType, sub
   const currency = 'INR';
   const receiptId = 'qwsaq1';
   const [razorpayLoaded, setRazorpayLoaded] = useState(false);
+  const [couponCode, setCouponCode] = useState('');
+const [couponMessage, setCouponMessage] = useState('');
+const [discountAmount, setDiscountAmount] = useState(0); // Holds the amount discounted by the coupon
+
+const applyCoupon = async () => {
+  setIsLoading(true);
+  setCouponMessage('');
+
+  const couponRef = db.collection('coupens').doc(couponCode.toUpperCase());
+  const couponSnapshot = await couponRef.get();
+
+  if (couponSnapshot.exists && !couponSnapshot.data().used) {
+    const couponData = couponSnapshot.data();
+    // Assuming couponData.discount represents the percentage discount
+    const discountPercentage = couponData.discount;
+    // Calculate the discount amount based on the percentage
+    const calculatedDiscountAmount = (subtotal * discountPercentage) / 100;
+    setDiscountAmount(calculatedDiscountAmount);
+    setCouponMessage(`Coupon applied: ${discountPercentage}% off`);
+
+    // Subtract the calculated discount from the total cost
+    // Note: Make sure to adjust your state or props accordingly if you are tracking the final total elsewhere
+    // totalCost = subtotal - calculatedDiscountAmount; (Handle this according to your state management)
+
+    // Update the Firestore document to mark the coupon as used
+    await couponRef.update({ used: true });
+  } else {
+    setCouponMessage('Invalid or already used coupon code.');
+  }
+  setIsLoading(false);
+};
+
+
 
   const handleSubscribe = async (jsonRes) => {
     setShowSuccessModal(true); // Show success modal
@@ -55,7 +90,7 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType, sub
 
     setIsLoading(true);
 
-    const amount = totalCost *100;
+    const amount = (totalCost -discountAmount) *100;
     console.log(amount)
     try {
      
@@ -212,17 +247,33 @@ const OrderSummary = ({itemNames, totalCost,itemSize,itemQuantity, itemType, sub
             id={'couponInput'}
             type='number'
           />
+  <FormInputField
+    label="Coupon Code"
+    value={couponCode}
+    handleChange={(_, newCouponCode) => setCouponCode(newCouponCode)}
+    id={'couponInput'}
+    type='text'
+  />
+  <Button onClick={applyCoupon} level={'secondary'}>Apply Coupon</Button>
+  {couponMessage && <div className={styles.couponMessage}>{couponMessage}</div>}
         </div>
         <br />
         <div className={styles.deliveryCharge}>
   Delivery Charge: Rs. 45
 </div>
-        <div className={styles.totalContainer}>
-          <span>Total: </span>
-          <span>
-            <CurrencyFormatter amount={totalCost} appendZero />
-          </span>
-        </div>
+<div className={styles.totalContainer}>
+  {discountAmount > 0 && (
+    <div>
+      <span>Original Total: </span>
+      <CurrencyFormatter amount={totalCost} appendZero />
+    </div>
+  )}
+  <div>
+    <span>Total: </span>
+    <CurrencyFormatter amount={totalCost - discountAmount} appendZero />
+  </div>
+</div>
+
       </div>
       <div className={styles.actionContainer}>
         <Button
