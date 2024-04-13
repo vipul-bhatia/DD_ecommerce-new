@@ -277,12 +277,13 @@ const applyCoupon = async () => {
       </div>
       <div className={styles.actionContainer}>
         <Button
+        disabled= {true}
         // onClick={handleSubscribe}  
           onClick={paymentHandler}
           fullWidth
           level={'primary'}
         >
-           {isLoading ? 'Payment is Processing...' : 'Checkout'} {/* Change text based on loading state */}
+           {isLoading ? 'Payment is Processing...' : 'Under maintenance for now!'} {/* Change text based on loading state */}
         </Button>
         <h3>{message}</h3>
         {error && <h3>{error}</h3>}
