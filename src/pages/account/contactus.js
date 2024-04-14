@@ -45,7 +45,7 @@ const Contact = () => {
           <div className="form-container">
             <div className="form-wrapper">
               <h2 className="form-title">
-                Contact Us by filling the below form 
+                Contact Us by filling the below form or call on +91 96800 46943 or email us at beformofficial@gmail.com
                 <br/>
                 Address:Jaipur , Rajasthan ,302020
               </h2>
