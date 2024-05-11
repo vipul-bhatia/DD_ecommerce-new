@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .root {
     display: grid;
     grid-template-columns: 5fr 5fr;
@@ -10,6 +11,7 @@
 }
 
 .categoryName {
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-weight: 1000;
     

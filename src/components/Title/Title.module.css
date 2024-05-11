@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .root {
     text-align: center;
     display: flex;
@@ -9,7 +11,8 @@
 }
 
 .title {
-    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     font-size: 42px;
     line-height: 50px;
     /* color to white */

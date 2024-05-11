@@ -39,7 +39,7 @@ const IndexPage = () => {
       <div className={styles.messageContainer}>
         <h3>
           Wear Your
-          <span className={styles.gold}> Vibe</span>
+       Vibe
         </h3>
       
       </div>
