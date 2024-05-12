@@ -73,7 +73,7 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
+            title={'LUXURY KNITWEAR'}
             description={`Chill in style with our oversized French terry tee. Cozy vibes, soft inside, smooth outside. It's your laid-back luxe for cool loungewear – from trendy sweatshirts to chill joggers. Feel the perfect balance of comfort and style.`}
             textLink={'shop now'}
             link={'/shop'}
