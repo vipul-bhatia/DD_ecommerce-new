@@ -234,7 +234,7 @@
 
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "BFM 08",
+        "name": "BFM CROPTOP 08",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
@@ -253,7 +253,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "BFM 09",
+        "name": "BFM CROPTOP 09",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
@@ -272,7 +272,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "BFM 10",
+        "name": "BFM CROPTOP 10",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
@@ -291,7 +291,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "BFM 11",
+        "name": "BFM CROPTOP 11",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
@@ -310,7 +310,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "BFM 12",
+        "name": "BFM CROPTOP 12",
         "vendor": "BEFORM",
         "price": 650,
         "alt": "lambswool crew neck jumper",
@@ -329,7 +329,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "BFM 13",
+        "name": "BFM CROPTOP 13",
         "vendor": "BEFORM",
         "price": 599,
         "alt": "lambswool crew neck jumper",
@@ -348,7 +348,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "BFM 14",
+        "name": "BFM CROPTOP 14",
         "vendor": "BEFORM",
         "price": 599,
         "alt": "lambswool crew neck jumper",
@@ -367,7 +367,7 @@
     },
     {
         "productCode": "MJUM8066-GYDZ",
-        "name": "BFM 15",
+        "name": "BFM CROPTOP 15",
         "vendor": "BEFORM",
         "price": 549,
         "alt": "lambswool crew neck jumper",
@@ -386,61 +386,282 @@
     },
 
     {
-        "name": "BFM 08",
+        "name": "BFM CROPTOP 08",
         "price": 549,
         "alt": "crop Top Product 1",
         "image": "/products/Crop Top Product 1.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "BFM 09",
+        "name": "BFM CROPTOP 09",
         "price": 549,
         "alt": "crop Top Productt 2",
         "image": "/products/Crop Top Product 2.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "BFM 10",
+        "name": "BFM CROPTOP 10",
         "price": 549,
         "alt": "crop Top Product 3",
         "image": "/products/Crop Top Product 3.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "BFM 11",
+        "name": "BFM CROPTOP 11",
         "price": 549,
         "alt": "crop Top Product 4",
         "image": "/products/Crop Top Product 4.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "BFM 12",
+        "name": "BFM CROPTOP 12",
         "price": 650,
         "alt": "crop Top Product 5",
         "image": "/products/Crop Top Product 5.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "BFM 13",
+        "name": "BFM CROPTOP 13",
         "price": 599,
         "alt": "crop Top Product 6",
         "image": "/products/Crop Top Product 6.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "BFM 14",
+        "name": "BFM CROPTOP 14",
         "price": 599,
         "alt": "crop Top Product 7",
         "image": "/products/Crop Top Product 7.jpg",
         "tags": ["shirt", "women"]
     },
     {
-        "name": "BFM 15",
+        "name": "BFM CROPTOP 15",
         "price": 549,
         "alt": "crop Top Product 8",
         "image": "/products/Crop Top Product 8.jpg",
         "tags": ["shirt", "women"]
     },
+
+
+
+
+
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "BFM TSHIRT 16",
+        "vendor": "BEFORM",
+        "price": 549,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/TSHIRT1.jpeg",
+        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "wishlist": true,
+        "tags": ["sample33"],
+        "gallery": [
+            {"image": "/products/TSHIRT1.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/TSHIRT1.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/TSHIRT1.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/TSHIRT1.jpeg", "alt": "pdp description 4"}
+        ],
+        "video": "/products/BFM07.mp4",
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "BFM TSHIRT 17",
+        "vendor": "BEFORM",
+        "price": 549,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/TSHIRT2.jpeg",
+        "sizeOptions": ["s","m","l", "xl"],
+        "wishlist": true,
+        "tags": ["sample34"],
+        "gallery": [
+            {"image": "/products/TSHIRT2.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/TSHIRT2.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/TSHIRT2.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/TSHIRT2.jpeg", "alt": "pdp description 4"}
+        ],
+        "video": "/products/BFM07.mp4",
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "BFM TSHIRT 18",
+        "vendor": "BEFORM",
+        "price": 549,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/TSHIRT3.jpeg",
+        "sizeOptions": ["s","m","l", "xl"],
+        "wishlist": true,
+        "tags": ["sample35"],
+        "gallery": [
+            {"image": "/products/TSHIRT3.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/TSHIRT3.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/TSHIRT3.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/TSHIRT3.jpeg", "alt": "pdp description 4"}
+        ],
+        "video": "/products/BFM07.mp4",
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "BFM TSHIRT 19",
+        "vendor": "BEFORM",
+        "price": 549,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/TSHIRT4.jpeg",
+        "sizeOptions": ["s","m","l", "xl"],
+        "wishlist": true,
+        "tags": ["sample36"],
+        "gallery": [
+            {"image": "/products/TSHIRT4.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/TSHIRT4.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/TSHIRT4.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/TSHIRT4.jpeg", "alt": "pdp description 4"}
+        ],
+        "video": "/products/BFM07.mp4",
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "BFM TSHIRT 20",
+        "vendor": "BEFORM",
+        "price": 650,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/TSHIRT5.jpeg",
+        "sizeOptions": ["s","m","l", "xl"],
+        "wishlist": true,
+        "tags": ["sample37"],
+        "gallery": [
+            {"image": "/products/TSHIRT5.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/TSHIRT5.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/TSHIRT5.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/TSHIRT5.jpeg", "alt": "pdp description 4"}
+        ],
+        "video": "/products/BFM07.mp4",
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "BFM TSHIRT 21",
+        "vendor": "BEFORM",
+        "price": 599,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/TSHIRT6.jpeg",
+        "sizeOptions": ["s","m","l", "xl"],
+        "wishlist": true,
+        "tags": ["sample38"],
+        "gallery": [
+            {"image": "/products/TSHIRT6.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/TSHIRT6.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/TSHIRT6.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/TSHIRT6.jpeg", "alt": "pdp description 4"}
+        ],
+        "video": "/products/BFM07.mp4",
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "BFM TSHIRT 22",
+        "vendor": "BEFORM",
+        "price": 599,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/TSHIRT7.jpeg",
+        "sizeOptions": ["s","m","l", "xl"],
+        "wishlist": true,
+        "tags": ["sample39"],
+        "gallery": [
+            {"image": "/products/TSHIRT7.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/TSHIRT7.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/TSHIRT7.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/TSHIRT7.jpeg", "alt": "pdp description 4"}
+        ],
+        "video": "/products/BFM07.mp4",
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "BFM TSHIRT 23",
+        "vendor": "BEFORM",
+        "price": 549,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/TSHIRT8.jpeg",
+        "sizeOptions": ["s","m","l", "xl"],
+        "wishlist": true,
+        "tags": ["sample40"],
+        "gallery": [
+            {"image": "/products/TSHIRT8.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/TSHIRT8.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/TSHIRT8.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/TSHIRT8.jpeg", "alt": "pdp description 4"}
+        ],
+        "video": "/products/BFM07.mp4",
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+
+
+
+
+    {
+        "name": "BFM TSHIRT 16",
+        "price": 549,
+        "alt": "crop Top Product 1",
+        "image": "/products/TSHIRT1.jpeg",
+        "tags": ["shirt", "summer"]
+    },
+    {
+        "name": "BFM TSHIRT 17",
+        "price": 549,
+        "alt": "crop Top Productt 2",
+        "image": "/products/TSHIRT2.jpeg",
+        "tags": ["shirt", "summer"]
+    },
+    {
+        "name": "BFM TSHIRT 18",
+        "price": 549,
+        "alt": "crop Top Product 3",
+        "image": "/products/TSHIRT3.jpeg",
+        "tags": ["shirt", "summer"]
+    },
+    {
+        "name": "BFM TSHIRT 19",
+        "price": 549,
+        "alt": "crop Top Product 4",
+        "image": "/products/TSHIRT4.jpeg",
+        "tags": ["shirt", "summer"]
+    },
+    {
+        "name": "BFM TSHIRT 20",
+        "price": 650,
+        "alt": "crop Top Product 5",
+        "image": "/products/TSHIRT5.jpeg",
+        "tags": ["shirt", "summer"]
+    },
+    {
+        "name": "BFM TSHIRT 21",
+        "price": 599,
+        "alt": "crop Top Product 6",
+        "image": "/products/TSHIRT6.jpeg",
+        "tags": ["shirt", "summer"]
+    },
+    {
+        "name": "BFM TSHIRT 22",
+        "price": 599,
+        "alt": "crop Top Product 7",
+        "image": "/products/TSHIRT7.jpeg",
+        "tags": ["shirt", "summer"]
+    },
+    {
+        "name": "BFM TSHIRT 23",
+        "price": 549,
+        "alt": "crop Top Product 8",
+        "image": "/products/TSHIRT8.jpeg",
+        "tags": ["shirt", "summer"]
+    },
+
+
+
+
 
 
 

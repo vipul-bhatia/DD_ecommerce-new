@@ -38,8 +38,7 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <h3>
-          Wear Your
-       Vibe
+          WEAR YOUR VIBE
         </h3>
       
       </div>

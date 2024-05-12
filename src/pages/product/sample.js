@@ -108,29 +108,53 @@ const ProductPage = (props) => {
   else if(productName === 'Sticker 18'){
     sampleProduct = generateMockProductData(1, 'sample24')[0];
   }
-  else if(productName === 'BFM 08'){
+  else if(productName === 'BFM CROPTOP 08'){
     sampleProduct = generateMockProductData(1, 'sample25')[0];
   }
-  else if(productName === 'BFM 09'){
+  else if(productName === 'BFM CROPTOP 09'){
     sampleProduct = generateMockProductData(1, 'sample26')[0];
   }
-  else if(productName === 'BFM 10'){
+  else if(productName === 'BFM CROPTOP 10'){
     sampleProduct = generateMockProductData(1, 'sample27')[0];
   }
-  else if(productName === 'BFM 11'){
+  else if(productName === 'BFM CROPTOP 11'){
     sampleProduct = generateMockProductData(1, 'sample28')[0];
   }
-  else if(productName === 'BFM 12'){
+  else if(productName === 'BFM CROPTOP 12'){
     sampleProduct = generateMockProductData(1, 'sample29')[0];
   }
-  else if(productName === 'BFM 13'){
+  else if(productName === 'BFM CROPTOP 13'){
     sampleProduct = generateMockProductData(1, 'sample30')[0];
   }
-  else if(productName === 'BFM 14'){
+  else if(productName === 'BFM CROPTOP 14'){
     sampleProduct = generateMockProductData(1, 'sample31')[0];
   }
-  else if(productName === 'BFM 15'){
+  else if(productName === 'BFM CROPTOP 15'){
     sampleProduct = generateMockProductData(1, 'sample32')[0];
+  }
+  else if(productName === 'BFM TSHIRT 16'){
+    sampleProduct = generateMockProductData(1, 'sample33')[0];
+  }
+  else if(productName === 'BFM TSHIRT 17'){
+    sampleProduct = generateMockProductData(1, 'sample34')[0];
+  }
+  else if(productName === 'BFM TSHIRT 18'){
+    sampleProduct = generateMockProductData(1, 'sample35')[0];
+  }
+  else if(productName === 'BFM TSHIRT 19'){
+    sampleProduct = generateMockProductData(1, 'sample36')[0];
+  }
+  else if(productName === 'BFM TSHIRT 20'){
+    sampleProduct = generateMockProductData(1, 'sample37')[0];
+  }
+  else if(productName === 'BFM TSHIRT 21'){
+    sampleProduct = generateMockProductData(1, 'sample38')[0];
+  }
+  else if(productName === 'BFM TSHIRT 22'){
+    sampleProduct = generateMockProductData(1, 'sample39')[0];
+  }
+  else if(productName === 'BFM TSHIRT 23'){
+    sampleProduct = generateMockProductData(1, 'sample40')[0];
   }
   else {
     // Default case or handle additional product names
@@ -140,7 +164,7 @@ const ProductPage = (props) => {
   }
 
   const productNameSafe = productName || "";
-  const isSpecialCategory = productNameSafe.includes('Sticker') || productNameSafe.includes('Crop Top');
+  const isSpecialCategory = productNameSafe.includes('Sticke') || productNameSafe.includes('BFM CROPTOP') || productNameSafe.includes('BFM TSHIRT');
   
   const isSticker = productNameSafe.toLowerCase().includes('sticker');
 

@@ -10,7 +10,7 @@ const ProductCollectionGrid = (props) => {
         image={'/collections/collection1.png'}
 
         text={'SHOP NOW'}
-        link={'/shopmen'}
+        link={'/shoptshirt'}
       />
       
       <ProductCollection
