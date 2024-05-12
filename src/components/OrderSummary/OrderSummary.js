@@ -49,7 +49,7 @@ const applyCoupon = async () => {
     // totalCost = subtotal - calculatedDiscountAmount; (Handle this according to your state management)
 
     // Update the Firestore document to mark the coupon as used
-    await couponRef.update({ used: true });
+   //await couponRef.update({ used: true });
   } else {
     setCouponMessage('Invalid or already used coupon code.');
   }
