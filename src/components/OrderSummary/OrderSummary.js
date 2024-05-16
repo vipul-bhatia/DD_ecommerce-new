@@ -59,7 +59,7 @@ const applyCoupon = async () => {
 
 
   const handleSubscribe = async (jsonRes) => {
-    setShowSuccessModal(true); // Show success modal
+    setShowSuccessModal(true); 
     // Validate form inputs
     if (!name || !email || !phone || !address || !pincode) {
       setError('All fields are required');
