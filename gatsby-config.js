@@ -1,22 +1,31 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Sydney Ecommerce Theme`,
-    siteUrl: `https://jamm.matter.design`,
+    title: `Gatsby Site`,
+    siteUrl: `https://yoursite.com`,
   },
   plugins: [
-    'gatsby-plugin-postcss',
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Sydney Ecommerce Theme`,
-        short_name: `Sydney`,
+        name: `Gatsby Site`,
+        short_name: `Gatsby`,
         start_url: `/`,
-        background_color: `#000000`,
-        theme_color: `#ffffff`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
         display: `standalone`,
-        icon: 'src/assets/favicon.png',
+        icon: `src/assets/favicon.png`,
       },
     },
-    'gatsby-plugin-netlify',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/public/products`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify`, // Ensure this is included for Netlify deployment
   ],
 };
