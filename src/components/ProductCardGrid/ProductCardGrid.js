@@ -26,7 +26,7 @@ const ProductCardGrid = (props) => {
           meta={product.meta}
           originalPrice={product.originalPrice}
           link={product.link}
-          backImage = {product.backImage}
+          backImage={product.backImage}
           showQuickView={() => setShowQuickView(true)}
         />
       );
@@ -36,9 +36,8 @@ const ProductCardGrid = (props) => {
   return (
     <div className={styles.root} style={columnCount}>
       <div
-        className={`${styles.cardGrid} ${
-          showSlider === false ? styles.show : ''
-        }`}
+        className={`${styles.cardGrid} ${showSlider === false ? styles.show : ''
+          }`}
         style={columnCount}
       >
         {data && renderCards()}
