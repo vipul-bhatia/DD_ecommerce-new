@@ -1057,7 +1057,7 @@
         "vendor": "BEFORM",
         "price": 749,
         "alt": "lambswool crew neck jumper",
-        "image": "/products/tshirt8.jpg",
+        "image": "/products/tshirt11.jpg",
         "sizeOptions": [
             "s",
             "m",
@@ -1070,19 +1070,19 @@
         ],
         "gallery": [
             {
-                "image": "/products/tshirt8.jpg",
+                "image": "/products/tshirt11.jpg",
                 "alt": "pdp description 1"
             },
             {
-                "image": "/products/tshirt8.jpg",
+                "image": "/products/tshirt11.jpg",
                 "alt": "pdp description 2"
             },
             {
-                "image": "/products/tshirt8.jpg",
+                "image": "/products/tshirt11.jpg",
                 "alt": "pdp description 3"
             },
             {
-                "image": "/products/tshirt8.jpg",
+                "image": "/products/tshirt11.jpg",
                 "alt": "pdp description 4"
             }
         ],
@@ -1163,7 +1163,7 @@
         "name": "BFM TSHIRT 23",
         "price": 749,
         "alt": "crop Top Product 8",
-        "image": "/tshirt8.jpg",
+        "image": "/products/tshirt11.jpg",
         "tags": [
             "shirt",
             "summer"
