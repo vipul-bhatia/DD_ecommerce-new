@@ -6,19 +6,41 @@
         "price": 899,
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM01 tshirt front view.jpg",
-        "typeOptions": ["Oversized", "Full-Sleeve"],
+        "typeOptions": [
+            "Oversized",
+            "Full-Sleeve"
+        ],
         "typePriceAdjustments": {
             "Oversized": 0,
             "Full-Sleeve": 200
-          },
-        "sizeOptions": ["s","m","l", "xl"],
+        },
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample"],
+        "tags": [
+            "sample"
+        ],
         "gallery": [
-            {"image": "/products/BFM01 tshirt front view.jpg", "alt": "pdp description 1"},
-            {"image": "/products/BFM01 tshirt front view.jpg", "alt": "pdp description 2"},
-            {"image": "/products/BFM01 tshirt back view.jpg", "alt": "pdp description 3"},
-            {"image": "/products/BFM01 tshirt back view.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/BFM01 tshirt front view.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/BFM01 tshirt front view.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/BFM01 tshirt back view.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/BFM01 tshirt back view.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -28,21 +50,43 @@
         "name": "BFM 02",
         "vendor": "BEFORM",
         "price": 899,
-        "typeOptions": ["Oversized", "Full-Sleeve"],
+        "typeOptions": [
+            "Oversized",
+            "Full-Sleeve"
+        ],
         "typePriceAdjustments": {
             "Oversized": 0,
             "Full-Sleeve": 200
-          },
+        },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM02 tshirt front view.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample1"],
+        "tags": [
+            "sample1"
+        ],
         "gallery": [
-            {"image": "/products/BFM02 tshirt front view.jpg", "alt": "pdp description 1"},
-            {"image": "/products/BFM02 tshirt front view.jpg", "alt": "pdp description 2"},
-            {"image": "/products/BFM02 tshirt back view.jpg", "alt": "pdp description 3"},
-            {"image": "/products/BFM02 tshirt back view.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/BFM02 tshirt front view.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/BFM02 tshirt front view.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/BFM02 tshirt back view.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/BFM02 tshirt back view.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM02.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -52,21 +96,44 @@
         "name": "BFM 03",
         "vendor": "BEFORM",
         "price": 899,
-        "typeOptions": ["s","m","l", "xl"],
+        "typeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "typePriceAdjustments": {
             "Oversized": 0,
             "Full-Sleeve": 200
-          },
+        },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM03 tshirt front view.jpg",
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample2"],
+        "tags": [
+            "sample2"
+        ],
         "gallery": [
-            {"image": "/products/BFM03 tshirt front view.jpg", "alt": "pdp description 1"},
-            {"image": "/products/BFM03 tshirt front view.jpg", "alt": "pdp description 2"},
-            {"image": "/products/BFM03 tshirt back view.jpg", "alt": "pdp description 3"},
-            {"image": "/products/BFM03 tshirt back view.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/BFM03 tshirt front view.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/BFM03 tshirt front view.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/BFM03 tshirt back view.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/BFM03 tshirt back view.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM03.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -76,21 +143,43 @@
         "name": "BFM 04",
         "vendor": "BEFORM",
         "price": 899,
-        "typeOptions": ["Oversized", "Full-Sleeve"],
+        "typeOptions": [
+            "Oversized",
+            "Full-Sleeve"
+        ],
         "typePriceAdjustments": {
             "Oversized": 0,
             "Full-Sleeve": 200
-          },
+        },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM04 tshirt front view.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample3"],
+        "tags": [
+            "sample3"
+        ],
         "gallery": [
-            {"image": "/products/BFM04 tshirt front view.jpg", "alt": "pdp description 1"},
-            {"image": "/products/BFM04 tshirt front view.jpg", "alt": "pdp description 2"},
-            {"image": "/products/BFM04 tshirt back view.jpg", "alt": "pdp description 3"},
-            {"image": "/products/BFM04 tshirt back view.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/BFM04 tshirt front view.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/BFM04 tshirt front view.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/BFM04 tshirt back view.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/BFM04 tshirt back view.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM04.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -100,21 +189,43 @@
         "name": "BFM 05",
         "vendor": "BEFORM",
         "price": 899,
-        "typeOptions": ["Oversized", "Full-Sleeve"],
+        "typeOptions": [
+            "Oversized",
+            "Full-Sleeve"
+        ],
         "typePriceAdjustments": {
             "Oversized": 0,
             "Full-Sleeve": 200
-          },
+        },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM05 tshirt front view.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample4"],
+        "tags": [
+            "sample4"
+        ],
         "gallery": [
-            {"image": "/products/BFM05 tshirt front view.jpg", "alt": "pdp description 1"},
-            {"image": "/products/BFM05 tshirt front view.jpg", "alt": "pdp description 2"},
-            {"image": "/products/BFM05 tshirt back view.jpg", "alt": "pdp description 3"},
-            {"image": "/products/BFM05 tshirt back view.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/BFM05 tshirt front view.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/BFM05 tshirt front view.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/BFM05 tshirt back view.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/BFM05 tshirt back view.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM05.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -124,21 +235,43 @@
         "name": "BFM 06",
         "vendor": "BEFORM",
         "price": 899,
-        "typeOptions": ["Oversized", "Full-Sleeve"],
+        "typeOptions": [
+            "Oversized",
+            "Full-Sleeve"
+        ],
         "typePriceAdjustments": {
             "Oversized": 0,
             "Full-Sleeve": 200
-          },
+        },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM06 tshirt front view.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample5"],
+        "tags": [
+            "sample5"
+        ],
         "gallery": [
-            {"image": "/products/BFM06 tshirt front view.jpg", "alt": "pdp description 1"},
-            {"image": "/products/BFM06 tshirt front view.jpg", "alt": "pdp description 2"},
-            {"image": "/products/BFM06 tshirt back view.jpg", "alt": "pdp description 3"},
-            {"image": "/products/BFM06 tshirt back view.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/BFM06 tshirt front view.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/BFM06 tshirt front view.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/BFM06 tshirt back view.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/BFM06 tshirt back view.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM06.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -148,22 +281,43 @@
         "name": "BFM 07",
         "vendor": "BEFORM",
         "price": 899,
-        "typeOptions": ["Oversized", "Full-Sleeve"],
+        "typeOptions": [
+            "Oversized",
+            "Full-Sleeve"
+        ],
         "typePriceAdjustments": {
             "Oversized": 0,
             "Full-Sleeve": 200
-          },
+        },
         "alt": "lambswool crew neck jumper",
         "image": "/products/BFM07 tshirt front view.jpg",
-
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample6"],
+        "tags": [
+            "sample6"
+        ],
         "gallery": [
-            {"image": "/products/BFM07 tshirt front view.jpg", "alt": "pdp description 1"},
-            {"image": "/products/BFM07 tshirt front view.jpg", "alt": "pdp description 2"},
-            {"image": "/products/BFM07 tshirt back view.jpg", "alt": "pdp description 3"},
-            {"image": "/products/BFM07 tshirt back view.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/BFM07 tshirt front view.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/BFM07 tshirt front view.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/BFM07 tshirt back view.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/BFM07 tshirt back view.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -174,7 +328,10 @@
         "alt": "classic t-shirt 1",
         "image": "/products/BFM01 tshirt front view.jpg",
         "backImage": "/products/BFM01 tshirt back view.jpg",
-        "tags": ["shirt", "men"]
+        "tags": [
+            "shirt",
+            "men"
+        ]
     },
     {
         "name": "BFM 02",
@@ -182,7 +339,10 @@
         "alt": "classic t-shirt 2",
         "image": "/products/BFM02 tshirt front view.jpg",
         "backImage": "/products/BFM02 tshirt back view.jpg",
-        "tags": ["shirt", "men"]
+        "tags": [
+            "shirt",
+            "men"
+        ]
     },
     {
         "name": "BFM 03",
@@ -190,7 +350,10 @@
         "alt": "classic t-shirt 3",
         "image": "/products/BFM03 tshirt front view.jpg",
         "backImage": "/products/BFM03 tshirt back view.jpg",
-        "tags": ["shirt", "men"]
+        "tags": [
+            "shirt",
+            "men"
+        ]
     },
     {
         "name": "BFM 04",
@@ -198,7 +361,10 @@
         "alt": "classic t-shirt 4",
         "image": "/products/BFM04 tshirt front view.jpg",
         "backImage": "/products/BFM04 tshirt back view.jpg",
-        "tags": ["shirt", "men"]
+        "tags": [
+            "shirt",
+            "men"
+        ]
     },
     {
         "name": "BFM 05",
@@ -206,7 +372,10 @@
         "alt": "classic t-shirt 5",
         "image": "/products/BFM05 tshirt front view.jpg",
         "backImage": "/products/BFM05 tshirt back view.jpg",
-        "tags": ["shirt", "men"]
+        "tags": [
+            "shirt",
+            "men"
+        ]
     },
     {
         "name": "BFM 06",
@@ -214,7 +383,10 @@
         "alt": "classic t-shirt 6",
         "image": "/products/BFM06 tshirt front view.jpg",
         "backImage": "/products/BFM06 tshirt back view.jpg",
-        "tags": ["shirt", "men"]
+        "tags": [
+            "shirt",
+            "men"
+        ]
     },
     {
         "name": "BFM 07",
@@ -222,16 +394,11 @@
         "alt": "classic t-shirt 7",
         "image": "/products/BFM07 tshirt front view.jpg",
         "backImage": "/products/BFM07 tshirt back view.jpg",
-        "tags": ["shirt", "men"]
+        "tags": [
+            "shirt",
+            "men"
+        ]
     },
-
-
-
-
-
-
-
-
     {
         "productCode": "MJUM8066-GYDZ",
         "name": "BFM CROPTOP 08",
@@ -239,14 +406,34 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 1.jpg",
-        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample25"],
+        "tags": [
+            "sample25"
+        ],
         "gallery": [
-            {"image": "/products/Crop Top Product 1.jpg", "alt": "pdp description 1"},
-            {"image": "/products/Crop Top Product 1.jpg", "alt": "pdp description 2"},
-            {"image": "/products/Crop Top Product 1.jpg", "alt": "pdp description 3"},
-            {"image": "/products/Crop Top Product 1.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/Crop Top Product 1.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/Crop Top Product 1.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/Crop Top Product 1.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/Crop Top Product 1.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -258,14 +445,33 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 2.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample26"],
+        "tags": [
+            "sample26"
+        ],
         "gallery": [
-            {"image": "/products/Crop Top Product 2.jpg", "alt": "pdp description 1"},
-            {"image": "/products/Crop Top Product 2.jpg", "alt": "pdp description 2"},
-            {"image": "/products/Crop Top Product 2.jpg", "alt": "pdp description 3"},
-            {"image": "/products/Crop Top Product 2.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/Crop Top Product 2.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/Crop Top Product 2.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/Crop Top Product 2.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/Crop Top Product 2.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -277,14 +483,33 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 3.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample27"],
+        "tags": [
+            "sample27"
+        ],
         "gallery": [
-            {"image": "/products/Crop Top Product 3.jpg", "alt": "pdp description 1"},
-            {"image": "/products/Crop Top Product 3.jpg", "alt": "pdp description 2"},
-            {"image": "/products/Crop Top Product 3.jpg", "alt": "pdp description 3"},
-            {"image": "/products/Crop Top Product 3.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/Crop Top Product 3.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/Crop Top Product 3.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/Crop Top Product 3.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/Crop Top Product 3.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -296,14 +521,33 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 4.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample28"],
+        "tags": [
+            "sample28"
+        ],
         "gallery": [
-            {"image": "/products/Crop Top Product 4.jpg", "alt": "pdp description 1"},
-            {"image": "/products/Crop Top Product 4.jpg", "alt": "pdp description 2"},
-            {"image": "/products/Crop Top Product 4.jpg", "alt": "pdp description 3"},
-            {"image": "/products/Crop Top Product 4.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/Crop Top Product 4.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/Crop Top Product 4.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/Crop Top Product 4.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/Crop Top Product 4.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -315,14 +559,33 @@
         "price": 650,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 5.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample29"],
+        "tags": [
+            "sample29"
+        ],
         "gallery": [
-            {"image": "/products/Crop Top Product 5.jpg", "alt": "pdp description 1"},
-            {"image": "/products/Crop Top Product 5.jpg", "alt": "pdp description 2"},
-            {"image": "/products/Crop Top Product 5.jpg", "alt": "pdp description 3"},
-            {"image": "/products/Crop Top Product 5.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/Crop Top Product 5.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/Crop Top Product 5.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/Crop Top Product 5.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/Crop Top Product 5.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -334,14 +597,33 @@
         "price": 599,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 6.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample30"],
+        "tags": [
+            "sample30"
+        ],
         "gallery": [
-            {"image": "/products/Crop Top Product 6.jpg", "alt": "pdp description 1"},
-            {"image": "/products/Crop Top Product 6.jpg", "alt": "pdp description 2"},
-            {"image": "/products/Crop Top Product 6.jpg", "alt": "pdp description 3"},
-            {"image": "/products/Crop Top Product 6.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/Crop Top Product 6.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/Crop Top Product 6.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/Crop Top Product 6.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/Crop Top Product 6.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -353,14 +635,33 @@
         "price": 599,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 7.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample31"],
+        "tags": [
+            "sample31"
+        ],
         "gallery": [
-            {"image": "/products/Crop Top Product 7.jpg", "alt": "pdp description 1"},
-            {"image": "/products/Crop Top Product 7.jpg", "alt": "pdp description 2"},
-            {"image": "/products/Crop Top Product 7.jpg", "alt": "pdp description 3"},
-            {"image": "/products/Crop Top Product 7.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/Crop Top Product 7.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/Crop Top Product 7.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/Crop Top Product 7.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/Crop Top Product 7.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -372,95 +673,152 @@
         "price": 549,
         "alt": "lambswool crew neck jumper",
         "image": "/products/Crop Top Product 8.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample32"],
+        "tags": [
+            "sample32"
+        ],
         "gallery": [
-            {"image": "/products/Crop Top Product 8.jpg", "alt": "pdp description 1"},
-            {"image": "/products/Crop Top Product 8.jpg", "alt": "pdp description 2"},
-            {"image": "/products/Crop Top Product 8.jpg", "alt": "pdp description 3"},
-            {"image": "/products/Crop Top Product 8.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/Crop Top Product 8.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/Crop Top Product 8.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/Crop Top Product 8.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/Crop Top Product 8.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
-
     {
         "name": "BFM CROPTOP 08",
         "price": 549,
         "alt": "crop Top Product 1",
         "image": "/products/Crop Top Product 1.jpg",
-        "tags": ["shirt", "women"]
+        "tags": [
+            "shirt",
+            "women"
+        ]
     },
     {
         "name": "BFM CROPTOP 09",
         "price": 549,
         "alt": "crop Top Productt 2",
         "image": "/products/Crop Top Product 2.jpg",
-        "tags": ["shirt", "women"]
+        "tags": [
+            "shirt",
+            "women"
+        ]
     },
     {
         "name": "BFM CROPTOP 10",
         "price": 549,
         "alt": "crop Top Product 3",
         "image": "/products/Crop Top Product 3.jpg",
-        "tags": ["shirt", "women"]
+        "tags": [
+            "shirt",
+            "women"
+        ]
     },
     {
         "name": "BFM CROPTOP 11",
         "price": 549,
         "alt": "crop Top Product 4",
         "image": "/products/Crop Top Product 4.jpg",
-        "tags": ["shirt", "women"]
+        "tags": [
+            "shirt",
+            "women"
+        ]
     },
     {
         "name": "BFM CROPTOP 12",
         "price": 650,
         "alt": "crop Top Product 5",
         "image": "/products/Crop Top Product 5.jpg",
-        "tags": ["shirt", "women"]
+        "tags": [
+            "shirt",
+            "women"
+        ]
     },
     {
         "name": "BFM CROPTOP 13",
         "price": 599,
         "alt": "crop Top Product 6",
         "image": "/products/Crop Top Product 6.jpg",
-        "tags": ["shirt", "women"]
+        "tags": [
+            "shirt",
+            "women"
+        ]
     },
     {
         "name": "BFM CROPTOP 14",
         "price": 599,
         "alt": "crop Top Product 7",
         "image": "/products/Crop Top Product 7.jpg",
-        "tags": ["shirt", "women"]
+        "tags": [
+            "shirt",
+            "women"
+        ]
     },
     {
         "name": "BFM CROPTOP 15",
         "price": 549,
         "alt": "crop Top Product 8",
         "image": "/products/Crop Top Product 8.jpg",
-        "tags": ["shirt", "women"]
+        "tags": [
+            "shirt",
+            "women"
+        ]
     },
-
-
-
-
-
     {
         "productCode": "MJUM8066-GYDZ",
         "name": "BFM TSHIRT 16",
         "vendor": "BEFORM",
         "price": 749,
         "alt": "lambswool crew neck jumper",
-        "image": "/products/tshirt1.jpg",
-        "sizeOptions": ["s","m","l", "xl","xxl"],
+        "image": "/products/BFM11.jpg",
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample33"],
+        "tags": [
+            "sample33"
+        ],
         "gallery": [
-            {"image": "/products/tshirt1.jpg", "alt": "pdp description 1"},
-            {"image": "/products/tshirt1.jpg", "alt": "pdp description 2"},
-            {"image": "/products/tshirt1.jpg", "alt": "pdp description 3"},
-            {"image": "/products/tshirt1.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/BFM11.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/BFM11.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/BFM11.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/BFM11.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -472,14 +830,33 @@
         "price": 749,
         "alt": "lambswool crew neck jumper",
         "image": "/products/tshirt2.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample34"],
+        "tags": [
+            "sample34"
+        ],
         "gallery": [
-            {"image": "/products/tshirt2.jpg", "alt": "pdp description 1"},
-            {"image": "/products/tshirt2.jpg", "alt": "pdp description 2"},
-            {"image": "/products/tshirt2.jpg", "alt": "pdp description 3"},
-            {"image": "/products/tshirt2.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/tshirt2.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/tshirt2.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/tshirt2.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/tshirt2.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -491,14 +868,33 @@
         "price": 749,
         "alt": "lambswool crew neck jumper",
         "image": "/products/tshirt3.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample35"],
+        "tags": [
+            "sample35"
+        ],
         "gallery": [
-            {"image": "/products/tshirt3.jpg", "alt": "pdp description 1"},
-            {"image": "/products/tshirt3.jpg", "alt": "pdp description 2"},
-            {"image": "/products/tshirt3.jpg", "alt": "pdp description 3"},
-            {"image": "/products/tshirt3.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/tshirt3.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/tshirt3.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/tshirt3.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/tshirt3.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -510,14 +906,33 @@
         "price": 749,
         "alt": "lambswool crew neck jumper",
         "image": "/products/tshirt4.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample36"],
+        "tags": [
+            "sample36"
+        ],
         "gallery": [
-            {"image": "/products/tshirt4.jpg", "alt": "pdp description 1"},
-            {"image": "/products/tshirt4.jpg", "alt": "pdp description 2"},
-            {"image": "/products/tshirt4.jpg", "alt": "pdp description 3"},
-            {"image": "/products/tshirt4.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/tshirt4.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/tshirt4.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/tshirt4.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/tshirt4.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -529,14 +944,33 @@
         "price": 749,
         "alt": "lambswool crew neck jumper",
         "image": "/products/tshirt5.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample37"],
+        "tags": [
+            "sample37"
+        ],
         "gallery": [
-            {"image": "/products/tshirt5.jpg", "alt": "pdp description 1"},
-            {"image": "/products/tshirt5.jpg", "alt": "pdp description 2"},
-            {"image": "/products/tshirt5.jpg", "alt": "pdp description 3"},
-            {"image": "/products/tshirt5.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/tshirt5.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/tshirt5.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/tshirt5.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/tshirt5.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -548,14 +982,33 @@
         "price": 749,
         "alt": "lambswool crew neck jumper",
         "image": "/products/tshirt6.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample38"],
+        "tags": [
+            "sample38"
+        ],
         "gallery": [
-            {"image": "/products/tshirt6.jpg", "alt": "pdp description 1"},
-            {"image": "/products/tshirt6.jpg", "alt": "pdp description 2"},
-            {"image": "/products/tshirt6.jpg", "alt": "pdp description 3"},
-            {"image": "/products/tshirt6.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/tshirt6.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/tshirt6.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/tshirt6.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/tshirt6.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -567,14 +1020,33 @@
         "price": 749,
         "alt": "lambswool crew neck jumper",
         "image": "/products/tshirt7.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample39"],
+        "tags": [
+            "sample39"
+        ],
         "gallery": [
-            {"image": "/products/tshirt7.jpg", "alt": "pdp description 1"},
-            {"image": "/products/tshirt7.jpg", "alt": "pdp description 2"},
-            {"image": "/products/tshirt7.jpg", "alt": "pdp description 3"},
-            {"image": "/products/tshirt7.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/tshirt7.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/tshirt7.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/tshirt7.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/tshirt7.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -586,93 +1058,117 @@
         "price": 749,
         "alt": "lambswool crew neck jumper",
         "image": "/products/tshirt8.jpg",
-        "sizeOptions": ["s","m","l", "xl"],
+        "sizeOptions": [
+            "s",
+            "m",
+            "l",
+            "xl"
+        ],
         "wishlist": true,
-        "tags": ["sample40"],
+        "tags": [
+            "sample40"
+        ],
         "gallery": [
-            {"image": "/products/tshirt8.jpg", "alt": "pdp description 1"},
-            {"image": "/products/tshirt8.jpg", "alt": "pdp description 2"},
-            {"image": "/products/tshirt8.jpg", "alt": "pdp description 3"},
-            {"image": "/products/tshirt8.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/tshirt8.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/tshirt8.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/tshirt8.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/tshirt8.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM07.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
-
-
-
-
     {
         "name": "BFM tshirt 16",
         "price": 749,
         "alt": "crop Top Product 1",
-        "image": "/products/tshirt1.jpg",
-        "tags": ["shirt", "summer"]
+        "image": "/products/BFM11.jpg",
+        "tags": [
+            "shirt",
+            "summer"
+        ]
     },
     {
         "name": "BFM tshirt 17",
         "price": 749,
         "alt": "crop Top Productt 2",
         "image": "/products/tshirt2.jpg",
-        "tags": ["shirt", "summer"]
+        "tags": [
+            "shirt",
+            "summer"
+        ]
     },
     {
         "name": "BFM tshirt 18",
         "price": 749,
         "alt": "crop Top Product 3",
         "image": "/products/tshirt3.jpg",
-        "tags": ["shirt", "summer"]
+        "tags": [
+            "shirt",
+            "summer"
+        ]
     },
     {
         "name": "BFM tshirt 19",
         "price": 749,
         "alt": "crop Top Product 4",
         "image": "/products/tshirt4.jpg",
-        "tags": ["shirt", "summer"]
+        "tags": [
+            "shirt",
+            "summer"
+        ]
     },
     {
         "name": "BFM tshirt 20",
         "price": 749,
         "alt": "crop Top Product 5",
         "image": "/products/tshirt5.jpg",
-        "tags": ["shirt", "summer"]
+        "tags": [
+            "shirt",
+            "summer"
+        ]
     },
     {
         "name": "BFM tshirt 21",
         "price": 749,
         "alt": "crop Top Product 6",
         "image": "/products/tshirt6.jpg",
-        "tags": ["shirt", "summer"]
+        "tags": [
+            "shirt",
+            "summer"
+        ]
     },
     {
         "name": "BFM tshirt 22",
         "price": 749,
         "alt": "crop Top Product 7",
         "image": "/products/tshirt7.jpg",
-        "tags": ["shirt", "summer"]
+        "tags": [
+            "shirt",
+            "summer"
+        ]
     },
     {
         "name": "BFM tshirt 23",
         "price": 749,
         "alt": "crop Top Product 8",
         "image": "/tshirt8.jpg",
-        "tags": ["shirt", "summer"]
+        "tags": [
+            "shirt",
+            "summer"
+        ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "productCode": "MJUM8066-GYDZ",
         "name": "Sticker 1",
@@ -681,12 +1177,26 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 1-03.jpg",
         "wishlist": true,
-        "tags": ["sample7"],
+        "tags": [
+            "sample7"
+        ],
         "gallery": [
-            {"image": "/products/stickers 1-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 1-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 1-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 1-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 1-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 1-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 1-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 1-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -699,18 +1209,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 2-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample8"],
+        "tags": [
+            "sample8"
+        ],
         "gallery": [
-            {"image": "/products/stickers 2-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 2-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 2-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 2-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 2-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 2-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 2-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 2-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -723,18 +1260,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 3-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample9"],
+        "tags": [
+            "sample9"
+        ],
         "gallery": [
-            {"image": "/products/stickers 3-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 3-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 3-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 3-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 3-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 3-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 3-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 3-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -747,18 +1311,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 4-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample10"],
+        "tags": [
+            "sample10"
+        ],
         "gallery": [
-            {"image": "/products/stickers 4-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 4-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 4-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 4-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 4-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 4-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 4-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 4-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -771,18 +1362,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 5-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample11"],
+        "tags": [
+            "sample11"
+        ],
         "gallery": [
-            {"image": "/products/stickers 5-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 5-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 5-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 5-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 5-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 5-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 5-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 5-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -795,18 +1413,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 6-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample12"],
+        "tags": [
+            "sample12"
+        ],
         "gallery": [
-            {"image": "/products/stickers 6-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 6-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 6-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 6-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 6-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 6-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 6-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 6-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -819,18 +1464,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 7-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample13"],
+        "tags": [
+            "sample13"
+        ],
         "gallery": [
-            {"image": "/products/stickers 7-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 7-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 7-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 7-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 7-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 7-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 7-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 7-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -843,18 +1515,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 8-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample14"],
+        "tags": [
+            "sample14"
+        ],
         "gallery": [
-            {"image": "/products/stickers 8-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 8-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 8-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 8-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 8-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 8-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 8-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 8-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -867,18 +1566,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 9-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample15"],
+        "tags": [
+            "sample15"
+        ],
         "gallery": [
-            {"image": "/products/stickers 9-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 9-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 9-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 9-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 9-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 9-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 9-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 9-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -891,18 +1617,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 10-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample16"],
+        "tags": [
+            "sample16"
+        ],
         "gallery": [
-            {"image": "/products/stickers 10-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 10-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 10-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 10-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 10-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 10-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 10-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 10-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -915,18 +1668,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 11-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample17"],
+        "tags": [
+            "sample17"
+        ],
         "gallery": [
-            {"image": "/products/stickers 11-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 11-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 11-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 11-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 11-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 11-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 11-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 11-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -939,18 +1719,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 12-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample18"],
+        "tags": [
+            "sample18"
+        ],
         "gallery": [
-            {"image": "/products/stickers 12-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 12-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 12-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 12-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 12-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 12-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 12-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 12-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -963,18 +1770,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 13-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample19"],
+        "tags": [
+            "sample19"
+        ],
         "gallery": [
-            {"image": "/products/stickers 13-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 13-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 13-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 13-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 13-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 13-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 13-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 13-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -987,18 +1821,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 14-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample20"],
+        "tags": [
+            "sample20"
+        ],
         "gallery": [
-            {"image": "/products/stickers 14-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 14-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 14-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 14-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 14-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 14-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 14-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 14-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -1011,18 +1872,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 15-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample21"],
+        "tags": [
+            "sample21"
+        ],
         "gallery": [
-            {"image": "/products/stickers 15-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 15-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 15-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 15-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 15-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 15-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 15-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 15-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -1035,18 +1923,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 16-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample22"],
+        "tags": [
+            "sample22"
+        ],
         "gallery": [
-            {"image": "/products/stickers 16-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 16-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 16-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 16-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 16-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 16-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 16-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 16-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -1059,18 +1974,45 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 17-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["sample23"],
+        "tags": [
+            "sample23"
+        ],
         "gallery": [
-            {"image": "/products/stickers 17-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 17-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 17-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 17-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 17-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 17-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 17-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 17-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
@@ -1083,162 +2025,209 @@
         "alt": "lambswool crew neck jumper",
         "image": "/products/stickers 18-03.jpg",
         "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
+            {
+                "color": "#000000",
+                "title": "Anthracite Melange"
+            },
+            {
+                "color": "#4D34AE",
+                "title": "Pale Purple"
+            },
+            {
+                "color": "#488266",
+                "title": "Green Moss"
+            }
         ],
-        "sizeOptions": ["l", "xl","xxl"],
+        "sizeOptions": [
+            "l",
+            "xl",
+            "xxl"
+        ],
         "wishlist": true,
-        "tags": ["BEFORM"],
+        "tags": [
+            "BEFORM"
+        ],
         "gallery": [
-            {"image": "/products/stickers 18-03.jpg", "alt": "pdp description 1"},
-            {"image": "/products/stickers 18-03.jpg", "alt": "pdp description 2"},
-            {"image": "/products/stickers 18-03.jpg", "alt": "pdp description 3"},
-            {"image": "/products/stickers 18-03.jpg", "alt": "pdp description 4"}
+            {
+                "image": "/products/stickers 18-03.jpg",
+                "alt": "pdp description 1"
+            },
+            {
+                "image": "/products/stickers 18-03.jpg",
+                "alt": "pdp description 2"
+            },
+            {
+                "image": "/products/stickers 18-03.jpg",
+                "alt": "pdp description 3"
+            },
+            {
+                "image": "/products/stickers 18-03.jpg",
+                "alt": "pdp description 4"
+            }
         ],
         "video": "/products/BFM01.mp4",
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "name": "Sticker 1",
         "price": 45,
         "alt": "sticker 1",
         "image": "/products/stickers 1-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 2",
         "price": 65,
         "alt": "sticker 2",
         "image": "/products/stickers 2-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 3",
         "price": 20,
         "alt": "sticker 3",
         "image": "/products/stickers 3-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 4",
         "price": 25,
         "alt": "sticker 4",
         "image": "/products/stickers 4-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 5",
         "price": 39,
         "alt": "sticker 5",
         "image": "/products/stickers 5-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 6",
         "price": 39,
         "alt": "sticker 6",
         "image": "/products/stickers 6-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 7",
         "price": 25,
         "alt": "sticker 7",
         "image": "/products/stickers 7-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 8",
         "price": 59,
         "alt": "sticker 8",
         "image": "/products/stickers 8-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 9",
         "price": 59,
         "alt": "sticker 9",
         "image": "/products/stickers 9-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 10",
         "price": 49,
         "alt": "sticker 10",
         "image": "/products/stickers 10-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 11",
         "price": 65,
         "alt": "sticker 11",
         "image": "/products/stickers 11-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 12",
         "price": 65,
         "alt": "sticker 12",
         "image": "/products/stickers 12-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 13",
         "price": 49,
         "alt": "sticker 13",
         "image": "/products/stickers 13-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 14",
         "price": 65,
         "alt": "sticker 14",
         "image": "/products/stickers 14-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 15",
         "price": 50,
         "alt": "sticker 15",
         "image": "/products/stickers 15-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 16",
         "price": 59,
         "alt": "sticker 16",
         "image": "/products/stickers 16-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 17",
         "price": 39,
         "alt": "sticker 17",
         "image": "/products/stickers 17-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     },
     {
         "name": "Sticker 18",
         "price": 39,
         "alt": "sticker 18",
         "image": "/products/stickers 18-03.jpg",
-        "tags": ["sticker"]
+        "tags": [
+            "sticker"
+        ]
     }
-
-
-  ]
+]
